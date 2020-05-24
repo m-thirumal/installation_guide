@@ -44,3 +44,10 @@ sudo make install
 ```
 
 The binary will be available in */usr/local/bin/*
+
+#### Open PgModeler
+Just type the below command in terminal
+
+```
+pgmodeler
+```
