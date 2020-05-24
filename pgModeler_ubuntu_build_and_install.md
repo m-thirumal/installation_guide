@@ -5,21 +5,22 @@
 ```
  1.  sudo apt-get install build-essential
  2.  sudo apt-get install git
- 3.  sudo apt-get install qt5-default 
- 4.  sudo apt-get install qt5-qmake
- 5.  sudo apt-get install libpq5
- 6.  sudo apt-get install libxml2
- 7.  sudo apt-get install pkg-config
- 8.  sudo apt-get install xml2
- 9.  sudo apt-get install libxml2-dev
- 10. sudo apt-get install libpq-dev
- 11. sudo apt-get install libqt5svg5-dev
+ 3.  sudo apt-get install qtcreator
+ 4.  sudo apt-get install qt5-default 
+ 5.  sudo apt-get install qt5-qmake
+ 6.  sudo apt-get install libpq5
+ 7.  sudo apt-get install libxml2
+ 8.  sudo apt-get install pkg-config
+ 9.  sudo apt-get install xml2
+ 10.  sudo apt-get install libxml2-dev
+ 11. sudo apt-get install libpq-dev
+ 12. sudo apt-get install libqt5svg5-dev
 ```
 
 or install all dependencies in one command line
 
 ```
-sudo apt-get install build-essential git qt5-default qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev
+sudo apt-get install build-essential git qtcreator qt5-default qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev
 ```
 
 #### Getting the source
