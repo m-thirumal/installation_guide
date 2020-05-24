@@ -12,7 +12,7 @@
  7.  sudo apt-get install libxml2
  8.  sudo apt-get install pkg-config
  9.  sudo apt-get install xml2
- 10.  sudo apt-get install libxml2-dev
+ 10. sudo apt-get install libxml2-dev
  11. sudo apt-get install libpq-dev
  12. sudo apt-get install libqt5svg5-dev
 ```
