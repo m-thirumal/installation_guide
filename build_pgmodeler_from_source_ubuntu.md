@@ -1,4 +1,4 @@
-# Build PgModeler from source
+# Build PgModeler from source => *Ubuntu*
 
 #### Installing libraries (Dependencies)
 
