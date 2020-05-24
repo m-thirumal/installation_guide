@@ -1,4 +1,4 @@
-# installation_guide
+# Installation Guide
 
-1. [Build PgModeler from source](pgModeler_ubuntu_build_and_install.md)
+1. [Build PgModeler from source](Build_PgModeler_from_source_Ubuntu.md)
 
