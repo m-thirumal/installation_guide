@@ -1,4 +1,4 @@
-# Build PgModeler from source => *Ubuntu*
+# Build PgModeler from source => Ubuntu
 
 #### Installing libraries (Dependencies)
 
@@ -51,3 +51,5 @@ Just type the below command in terminal
 ```
 pgmodeler
 ```
+
+Tested with Ubuntu-20.04
