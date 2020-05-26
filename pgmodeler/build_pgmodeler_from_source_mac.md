@@ -38,4 +38,6 @@ Run the below command to install pgModeler in '/Application'
 
 Go to application and select pgmodeler
 
-Enjoy!!! ![output](pgmodeler/mac-pgmodeler.png)
+Enjoy !!!
+
+![output](mac-pgmodeler.png)
