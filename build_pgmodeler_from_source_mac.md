@@ -3,6 +3,7 @@
 #### Clone
 
 `git clone https://github.com/pgmodeler/pgmodeler.git`
+
 `cd pgmodeler`
 
 #### Build
