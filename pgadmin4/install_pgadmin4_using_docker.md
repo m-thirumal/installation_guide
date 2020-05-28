@@ -1,4 +1,4 @@
-Install & Configure PgAdmin 4 using docker
+# Install & Configure PgAdmin 4 using docker
 
 1. Set up docker
 2. Pull pgadmin4 image
