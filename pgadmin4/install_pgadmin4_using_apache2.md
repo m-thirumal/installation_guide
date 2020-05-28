@@ -15,6 +15,7 @@ Enter email & password to complete the installation process
 
 Go to [http://localhost/pgadmin4](browser) and login with email & password which you have given in the installation process
 
+![output](Pgadmin4.png)
      
 
  
