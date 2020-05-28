@@ -53,3 +53,6 @@ pgmodeler
 ```
 
 Tested with Ubuntu-20.04
+Enjoy !!!
+
+![output](Ubuntu.png)

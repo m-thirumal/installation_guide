@@ -8,4 +8,5 @@
 
 ### PgModeler output
 
-![MAC OUTPUT](pgmodeler/mac-pgmodeler.png)
+![Mac OUTPUT](pgmodeler/mac-pgmodeler.png)
+![Ubuntu OUTPUT](pgmodeler/Ubuntu.png)
