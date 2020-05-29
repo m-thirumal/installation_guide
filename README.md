@@ -7,6 +7,7 @@
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
+3. [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
 ### PgModeler Output
 
