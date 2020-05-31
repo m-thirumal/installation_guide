@@ -25,4 +25,5 @@
 
 	```redis-cli ping``` 
 
+
 If the above command returns pong then redis is installed correctly and working good
