@@ -5,12 +5,13 @@ if [ "$(whoami)" != "root" ]; then
 	exit 1
 fi
 
-echo 'Installing redis stable release ... '
+read -e -p "Redis version to be installed (change if needed) : " -i "6.0.4" VERSION
+echo 'Installing redis v.'$VERSION' ... '
 
 # installing build essentials if it is missing
 apt-get install build-essential
 
-wget http://download.redis.io/releases/redis-stable.tar.gz
+wget http://download.redis.io/releases/redis-$VERSION.tar.gz
 tar xzf redis-$VERSION.tar.gz
 cd redis-$VERSION
 make
