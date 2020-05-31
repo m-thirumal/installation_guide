@@ -22,11 +22,11 @@ rm redis-$VERSION -R
 rm redis-$VERSION.tar.gz
 
 # create user and autostart
-#useradd -r -s /bin/false redis
-##wget -O /etc/init.d/redis-server https://gist.github.com/iJackUA/5336459/raw/4d7e4adfc08899dc7b6fd5d718f885e3863e6652/redis-server-for-init.d-startup
-#touch /var/run/redis.pid
-#chown redis:redis /var/run/redis.pid
-#chmod 755 /etc/init.d/redis-server
+useradd -r -s /bin/false redis
+wget -O /etc/init.d/redis-server https://raw.githubusercontent.com/M-Thirumal/installation_guide/master/redis/redis-server
+touch /var/run/redis.pid
+chown redis:redis /var/run/redis.pid
+chmod 755 /etc/init.d/redis-server
 
 # UNCOMMENT IF NEEDED to do autostart
-# update-rc.d redis-server defaults
+update-rc.d redis-server defaults
