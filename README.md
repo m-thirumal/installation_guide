@@ -14,7 +14,7 @@
 2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
 3. [Enable remote access](redis/redis_enable_remote_access.md)
 
-### AWS - Website host
+### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
 
 ### PgModeler Output
