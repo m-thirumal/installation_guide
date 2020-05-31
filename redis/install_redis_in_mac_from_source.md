@@ -24,7 +24,9 @@
 # Test with redi-cli
 
 	```
+	
 	redis-cli ping
+	
 	``` 
 
 
