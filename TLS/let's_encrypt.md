@@ -2,6 +2,8 @@
 
 1. Start Docker and pull `certbot` image
 
+	docker pull certbot/certbot
+
 2. Run the below command
 
 	```
@@ -9,8 +11,8 @@
 	
 	``` 
 
-3. It will generate few folders which similar to ![folder_structure](folder_structure.png)
+3. It will generate few folders which similar to the image ![folder_structure](folder_structure.png)
 
-4. `PEM` files can be found in `archive\domain name`
+4. `PEM` files can be found in `archive\domain name\`
 
 5. ![tls_files](tls_files.png)
