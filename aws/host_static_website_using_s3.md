@@ -3,6 +3,7 @@
 1. Create two S3 bucket with your domain name `(www and non-www)`
 	
 	example.com
+	
 	www.example.com
 
 2. Configure `non-www` bucket to redirect to `www` bucket
