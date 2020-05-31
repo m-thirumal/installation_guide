@@ -9,7 +9,7 @@
 	
 	``` 
 
-3. It will generate few folders which similar to [folder_structure](folder_structure.png)
+3. It will generate few folders which similar to ![folder_structure](folder_structure.png)
 
 4. `PEM` files can be found in `archive\domain name`
 
