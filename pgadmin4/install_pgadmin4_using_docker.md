@@ -19,4 +19,9 @@
 	```
 6. Enter your IP address in the browser to access pgadmin4
 
+7. To start docker container
+
+	sudo docker start pgadmin
+
+
 ![output](Pgadmin4.png)
