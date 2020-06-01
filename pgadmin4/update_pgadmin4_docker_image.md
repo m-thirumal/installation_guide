@@ -18,7 +18,7 @@
  sudo docker run --name pgadmin -p 80:80 -v /var/lib/pgadmin:/var/lib/pgadmin  -e 'PGADMIN_DEFAULT_EMAIL=m.thirumal@hotmail.com' -e 'PGADMIN_DEFAULT_PASSWORD=thirumal' -d dpage/pgadmin4
 ```
 
-4. To start docker image
+4. To start docker container
 
 	sudo docker start pgadmin
 	
