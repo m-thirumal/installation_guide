@@ -21,7 +21,7 @@
 
 7. To start docker container
 
-	sudo docker start pgadmin
+	`sudo docker start pgadmin`
 
 
 ![output](Pgadmin4.png)
