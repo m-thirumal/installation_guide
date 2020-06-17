@@ -24,10 +24,10 @@ sudo  apt-get install postgresql-client
 
 ### Alter PostgreSQL password
 
-   sudo -u postgres psql
+   `sudo -u postgres psql`
 
-   ALTER USER postgres PASSWORD 'NEWPASSWORD' 
-   
+   `ALTER USER postgres PASSWORD 'NEWPASSWORD'` 
+  
     
 ### Change listen_address localhost to * in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
 ```
