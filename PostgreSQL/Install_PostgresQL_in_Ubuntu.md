@@ -18,11 +18,23 @@ sudo apt-get update
 
 sudo apt-get install postgresql postgresql-contrib
 
+sudo  apt-get install postgresql-client 
+
 ```
 
 ### Alter PostgreSQL password
 
-```
-sudo -u postgres psql
+   sudo -u postgres psql
 
+   ALTER USER postgres PASSWORD 'NEWPASSWORD' 
+   
+    
+### Change listen_address localhost to * in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
 ```
+    # - Connection Settings - 
+    listen_addresses = '*'          # what IP address(es) to listen on; 
+
+                                            # comma-separated list of addresses; 
+
+                                            # defaults to 'localhost'; use '*' for all 
+    ```
