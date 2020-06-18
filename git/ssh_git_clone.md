@@ -4,7 +4,7 @@
 1. Open Terminal (Ctrl + Alt + T) and enter the following command to set up your default identity
 `ssh-keygen`
  
- Eg:
+   Eg:
  ```
 thirumal@thirumal:~/git$ ssh-keygen
 Generating public/private rsa key pair.
@@ -38,3 +38,4 @@ The key's randomart image is:
 1. Copy the your public key using the following command 
 `cat ~/.ssh/id_rsa.pub`
 2. Add it to your account 
+3. return to your terminal and clone the repository using ssh `git@github.com:M-Thirumal/installation_guide.git`
