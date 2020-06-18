@@ -29,7 +29,7 @@ sudo  apt-get install postgresql-client
    `ALTER USER postgres PASSWORD 'NEWPASSWORD'` 
   
     
-### Change listen_address localhost to * in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
+### Change listen_address `localhost to *` in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
 ```
     # - Connection Settings - 
     listen_addresses = '*'          # what IP address(es) to listen on; 
