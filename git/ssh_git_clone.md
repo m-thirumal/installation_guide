@@ -35,7 +35,7 @@ The key's randomart image is:
  ```
 ### Step 2 Add the public key to your Account settings
 
-1. Copy the your public key using the following command 
+1. Copy your public key using the following command 
 `cat ~/.ssh/id_rsa.pub`
 2. Add it to your account 
-3. return to your terminal and clone the repository using ssh `git@github.com:M-Thirumal/installation_guide.git`
+3. Return to your terminal and clone the repository using ssh `git@github.com:M-Thirumal/installation_guide.git`
