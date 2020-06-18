@@ -33,7 +33,7 @@ The key's randomart image is:
 | ..*oE .         |
 +----[SHA256]-----+
  ```
-### Set 2 Add the public key to your Account settings
+### Step 2 Add the public key to your Account settings
 
 1. Copy the your public key using the following command 
 `cat ~/.ssh/id_rsa.pub`
