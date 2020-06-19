@@ -11,7 +11,7 @@
 	```
 4. Map to Pgadmin user & group 5050
 	```
-	sudo mkdir /var/lib/pgadmin4
+	sudo chown -R 5050:5050 /var/lib/pgadmin/
 	```
 5. Finally run the docker image
 	```
