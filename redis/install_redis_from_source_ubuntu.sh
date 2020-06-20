@@ -5,7 +5,7 @@ if [ "$(whoami)" != "root" ]; then
 	exit 1
 fi
 
-read -e -p "Redis version to be installed (change if needed) : " -i "6.0.4" VERSION
+read -e -p "Redis version to be installed (change if needed) : " -i "6.0.5" VERSION
 echo 'Installing redis v.'$VERSION' ... '
 
 # installing build essentials if it is missing
