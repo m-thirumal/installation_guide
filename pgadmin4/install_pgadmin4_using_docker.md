@@ -19,7 +19,11 @@
 	```
 6. Enter your IP address in the browser to access pgadmin4
 
-7. To start docker container
+7. Create server with host name/address `172.17.0.1`
+    
+    ![172.17.0.1](172.17.0.1.png)
+    
+8. To start docker container
 
 	`sudo docker start pgadmin`
 
