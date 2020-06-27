@@ -9,3 +9,6 @@
 3. To start & enable localhost tunnel in background
 	
 	`nohup ngrok http 3000 &` 
+	
+	or
+	Run `ngrok http 5000 > /dev/null &` then use `curl localhost:4040/status` to get/check the url
