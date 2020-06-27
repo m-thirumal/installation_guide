@@ -10,7 +10,8 @@
 	
 	`nohup ngrok http 3000 &` 
 	
-	or
-	Run `ngrok http 5000 > /dev/null &` 
+	            or
+		    
+	`ngrok http 5000 > /dev/null &` 
 	
 4. Then use `localhost:4040/status` to get/check the url status
