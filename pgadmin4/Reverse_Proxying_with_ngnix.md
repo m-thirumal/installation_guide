@@ -1,6 +1,8 @@
 # Reverse Proxying for Pgadmin 4
 
-## HTTP via Nginx
+## 1. [Set up Pgamin4 using Docker](install_pgadmin4_using_docker.md)
+
+## 2. HTTP via Nginx
 
 Add the following code inside http{} in `/et/ngnix/ngnix.config` and replace `{SERVER_IP}` with server ip address
 
@@ -15,4 +17,4 @@ Add the following code inside http{} in `/et/ngnix/ngnix.config` and replace `{S
 	    }
 	}
 	
-## HTTPS via Nginx
+## 3. HTTPS via Nginx
