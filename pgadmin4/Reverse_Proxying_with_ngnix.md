@@ -1,4 +1,4 @@
-# Reverse Proxying
+# Reverse Proxying for Pgadmin 4
 
 ## HTTP via Nginx
 
