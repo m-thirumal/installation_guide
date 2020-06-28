@@ -5,6 +5,10 @@
     sudo apt update
     sudo apt install nginx
     
+
+Go to browser and enter [http://localhost](http://localhost)
+
+    
 ![http://localhost](Default.png)   
 
 ### Host your website
