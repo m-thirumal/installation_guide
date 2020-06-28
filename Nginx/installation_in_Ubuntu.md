@@ -6,6 +6,7 @@
     sudo apt install nginx
     
 ![http://localhost](Default.png)   
+
 ### Host your website
 
 Default page is placed in `/var/www/html/` location. You can place your static pages here, or use virtual host and place it other location.
@@ -64,3 +65,5 @@ paste the below content to `tutorial` file
 	
 
 ![Virtual host](Virtual-host.png)
+
+### [Reverse Proxying](../pgadmin4/Reverse_Proxying_with_ngnix.md)
