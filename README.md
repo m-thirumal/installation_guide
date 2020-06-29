@@ -4,6 +4,9 @@
 1. [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
 2. [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
 
+### Install PostgreSQL
+1. [Install and Configure PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
@@ -17,6 +20,13 @@
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
 
+### Nginx
+1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
+2. [Reverse Proxy using symblink](Nginx/reverse_proxy.md)
+
+### Git
+1. [SSH Clone](git/ssh_git_clone.md)
+
 ### PgModeler Output
 
 ![Mac OUTPUT](pgmodeler/mac-pgmodeler.png)
@@ -25,3 +35,7 @@
 ### PgAdmin4 Output
 
 ![PgAdmin4](pgadmin4/Pgadmin4.png)
+
+### Nginx output
+
+![Ngnix](Nginx/Default.png)
