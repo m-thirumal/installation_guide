@@ -35,9 +35,9 @@ sudo  apt-get install postgresql-client
     listen_addresses = '*'          # what IP address(es) to listen on;     
 ```
 
-### Changes in pg_hba.conf
+### Changes in `pg_hba.conf`
 
-Add the following line in # IPv4 local connections:
+Add the following line in `# IPv4 local connections`:
 
 	host    all             all             0.0.0.0/0               md5
 
