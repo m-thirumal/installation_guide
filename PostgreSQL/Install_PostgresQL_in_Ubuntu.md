@@ -32,9 +32,15 @@ sudo  apt-get install postgresql-client
 ### Change listen_address `localhost to *` in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
 ```
     # - Connection Settings - 
-    listen_addresses = '*'          # what IP address(es) to listen on; 
+    listen_addresses = '*'          # what IP address(es) to listen on;     
+```
 
-                                            # comma-separated list of addresses; 
+### Change in pg_hba.conf
 
-                                            # defaults to 'localhost'; use '*' for all 
-    ```
+Add the following line in # IPv4 local connections:
+
+	host    all             all             0.0.0.0/0               md5
+
+and comment
+
+	#host    all             all             127.0.0.1/32            md5

@@ -1,6 +1,7 @@
-# Install & Configure PgAdmin 4 using docker
+# Install & Configure PgAdmin 4 using docker [PostgreSQL installation](../PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
 1. Set up docker
+
 2. Pull pgadmin4 image
 	```
 	docker pull dpage/pgadmin4
