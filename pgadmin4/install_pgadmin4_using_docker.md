@@ -34,3 +34,5 @@ or [For Reverse Proxy](Reverse_Proxying_with_ngnix.md)
 
 
 ![output](Pgadmin4.png)
+
+9. [Reverse Proxy with Ngnix](Reverse_Proxying_with_ngnix.md)
