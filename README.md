@@ -22,7 +22,7 @@
 
 ### Nginx
 1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
-2. [Reverse Proxy using symblink](Nginx/reverse_proxy.md)
+2. [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
 
 ### Git
 1. [SSH Clone](git/ssh_git_clone.md)
