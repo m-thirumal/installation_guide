@@ -17,9 +17,9 @@ server {
 
 4. Create symblink
 
-	sudo ln -s /etc/nginx/sites-available/{file_name} /etc/nginx/sites-enabled/{file_name}
+	`sudo ln -s /etc/nginx/sites-available/{file_name} /etc/nginx/sites-enabled/{file_name}`
 	
 5. Reload the nginx
 
-	sudo service nginx restart
+	`sudo service nginx restart`
 	
