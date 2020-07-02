@@ -14,11 +14,11 @@
 
 4. Login to your Domain provider (Godaddy/AWS Route 53) to add DNS TXT records.
 	
-	`Record name : _acme-challenge.example.com.
+	`Record name : _acme-challenge.example.com.`
 	
-	Recort type : txt
+	`Recort type : txt`
 	
-	Value       : {displayed in the terminal}`
+	`Value       : {displayed in the terminal}`
 
 5. Return to your Terminal and press enter to validate and to generate the TLS
 
