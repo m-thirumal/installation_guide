@@ -3,7 +3,7 @@
 1. Start Docker and pull `certbot` image
 
 
-	docker pull certbot/certbot
+	`docker pull certbot/certbot`
 	
 
 2. Run the below command
