@@ -3,6 +3,7 @@
 1. Start Docker and pull `certbot` image
 
 	docker pull certbot/certbot
+	
 
 2. Run the below command
 
@@ -13,7 +14,9 @@
 4. Login to your Domain provider (Godaddy/AWS Route 53) to add DNS TXT records.
 	
 	Record name : _acme-challenge.example.com.
+	
 	Recort type : txt
+	
 	Value       : {displayed in the terminal}
 
 5. Return to your Terminal and press enter to validate and to generate the TLS
@@ -22,7 +25,7 @@
 
 7. `PEM` files can be found in `archive\domain name\`
 
-8. ![tls_files](tls_files.png)
+![tls_files](tls_files.png)
 
 
 ### Add the certificates in the AWS certificate manager
