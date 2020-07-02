@@ -5,6 +5,7 @@
 2. `unzip` downloaded file to `/usr/bin`
 
     `sudo unzip /path/to/ngrok.zip`
+    
     `sudo cp ngrok /usr/bin/`
     
 3. To start & enable localhost tunnel in background
