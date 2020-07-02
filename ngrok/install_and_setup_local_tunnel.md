@@ -1,6 +1,6 @@
 # Install ngrok and set up localhost tunnel
 
-1. Download [https://ngrok.com/download](ngrok)
+1. Download [https://ngrok.com/download](https://ngrok.com/download)
 
 2. `unzip` downloaded file to `/usr/bin`
 
