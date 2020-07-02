@@ -8,17 +8,17 @@
 
 2. Run the below command
 
-	docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
+	`docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'`
 	
 3. After running the above command it will ask you to add TXT record to your DNS before pressing enter.
 
 4. Login to your Domain provider (Godaddy/AWS Route 53) to add DNS TXT records.
 	
-	Record name : _acme-challenge.example.com.
+	`Record name : _acme-challenge.example.com.
 	
 	Recort type : txt
 	
-	Value       : {displayed in the terminal}
+	Value       : {displayed in the terminal}`
 
 5. Return to your Terminal and press enter to validate and to generate the TLS
 
