@@ -16,6 +16,9 @@ Modify `/etc/ngnix/ngnix.conf` file add the following/similar config inside `htt
         }
     }
     
+###### Note: If you are trying to set up in server replace `localhost/127.0.0.1` with your `Static IP` address  
+
+
  ### Multiple Reverse Proxy
  
  Modify `/etc/ngnix/ngnix.conf` file add the following/similar config inside `http`
