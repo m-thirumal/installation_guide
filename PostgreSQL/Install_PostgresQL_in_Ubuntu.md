@@ -1,6 +1,6 @@
 # Install PostgreSQL in Ubuntu
 
-## Enable PostgreSQL Apt Repository
+#### Enable PostgreSQL Apt Repository
 
 ```
 sudo apt-get install wget ca-certificates
@@ -22,7 +22,7 @@ sudo  apt-get install postgresql-client
 
 ```
 
-### Alter PostgreSQL password
+##### Alter PostgreSQL password
 
    `sudo -u postgres psql`
 
