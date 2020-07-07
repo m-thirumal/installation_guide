@@ -7,7 +7,7 @@
 ```
 2. Stop the running container
 
-    `sudo docker stop pgadmin`
+```sudo docker stop pgadmin```
 
 3. Remove existing container
 
