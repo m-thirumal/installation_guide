@@ -3,10 +3,13 @@
 1. [Install PostgreSQL](../PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
 2. Set up docker
+	```
+	sudo apt install docker.io
+	```
 
 3. Pull pgadmin4 image
 	```
-	docker pull dpage/pgadmin4
+	sudo docker pull dpage/pgadmin4
 	```
 4. Create a directory in the host to store session data of PgAdmin4
 	```
