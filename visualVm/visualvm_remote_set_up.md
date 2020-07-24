@@ -7,16 +7,16 @@
 	
 3. We need set the below properties while running jar
 
-	-Dcom.sun.management.jmxremote=true 
-	-Dcom.sun.management.jmxremote.port=<PORT> 
-	-Dcom.sun.management.jmxremote.authenticate=false 
-	-Dcom.sun.management.jmxremote.ssl=false 
-	-Djava.rmi.server.hostname=<SEVER IP_ADDRESS> 
-	-Dcom.sun.management.jmxremote.rmi.port=<PORT> 
+    -Dcom.sun.management.jmxremote=true 
+    -Dcom.sun.management.jmxremote.port=<PORT> 
+    -Dcom.sun.management.jmxremote.authenticate=false 
+    -Dcom.sun.management.jmxremote.ssl=false 
+    -Djava.rmi.server.hostname=<SEVER IP_ADDRESS> 
+    -Dcom.sun.management.jmxremote.rmi.port=<PORT> 
 	
 4. Example
  
- 	java -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=6001 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.0.23 -Dcom.sun.management.jmxremote.rmi.port=6001 -jar app-1.0.0-SNAPSHOT.jar 
+     java -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=6001 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.0.23 -Dcom.sun.management.jmxremote.rmi.port=6001 -jar app-1.0.0-SNAPSHOT.jar 
    
 
    ![output](VisualVm.png)
