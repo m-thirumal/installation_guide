@@ -20,5 +20,6 @@
  
      `java -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=6001 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=192.168.0.23 -Dcom.sun.management.jmxremote.rmi.port=6001 -jar app-1.0.0-SNAPSHOT.jar` 
    
+5. Go to `Visual VM` -> `Remote` -> `Add Remote host` with <SERVER IP_ADDRESS> -> `Add JMX Connection` with the <PORT>
 
    ![output](VisualVm.png)
