@@ -23,4 +23,11 @@
 
 #### Point Domain to CloudFront
 
-8. Copy the domain name that is displayed in the row after create
+8. Copy the `Domain Name` that is displayed in the row after create
+
+  ![Copy cloud front domain name](copy_cloud_front_domain_name.png)
+
+9. Add that as `CNAME` in `Route53`
+
+  ![Add Cloud Front Domain name to Route 53](add_cloud_front_domain_name_to_route_53.png)
+  ![CNAME in list of records](final_record_list_with_cname.png)
