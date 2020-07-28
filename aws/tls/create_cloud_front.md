@@ -4,7 +4,7 @@
 
 2. Go to Cloud Front and select `Create distribution` and again select `Get Started` under `Web`.
 
-3. Copy the end point from `www domain name` S3 bucket (Caution: Don't select the auto-select option) and add to
+3. Copy the end point from `www domain name` S3 bucket (Caution: Don't select the auto-select option) and add to `Origin Domain name`
 
   ![Copy www end point](copy_www_end_point.png)
   
