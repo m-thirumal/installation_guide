@@ -20,11 +20,13 @@
 	
 	`Value       : {displayed in the terminal}`
 
-5. Return to your Terminal and press enter to validate and to generate the TLS
+  ![Add txt Record](add_record_txt_toaws.png)
+  
+5. Return to your Terminal and press `enter to validate and to generate the TLS`
 
 6. It will generate few folders which similar to the image ![folder_structure](folder_structure.png)
 
-7. `PEM` files can be found in `archive\domain name\`
+7. `PEM` files can be found in `archive\website domain name\`
 
 ![tls_files](tls_files.png)
 
@@ -32,6 +34,7 @@
 ### Add the certificates in the AWS certificate manager
 
 1. Create certificate manager in `N-Virginia` region
+  ![Certificate Manager](certificate_manager.png)
 2. Go to AWS Certificate Manager > Import a certificate
 3. Add the content of `cert.pem` to Certificate body
 4. Add the content of `privkey.pem` to Certificate private key
