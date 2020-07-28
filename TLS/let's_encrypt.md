@@ -20,7 +20,7 @@
 	
 	`Value       : {displayed in the terminal}`
 
-  ![Add txt Record](add_record_txt_toaws.png)
+  ![Add txt Record](add_record_txt_to_aws.png)
   
 5. Return to your Terminal and press `enter to validate and to generate the TLS`
 
