@@ -18,9 +18,11 @@
 	
 	`Recort type : txt`
 	
-	`Value       : {displayed in the terminal}`
+	`Value/Route Traffic ===> IP address or another ...       : {displayed in the terminal}`
 
+ 
   ![Add txt Record](add_record_txt_to_aws.png)
+  
   
 5. Return to your Terminal and press `enter to validate and to generate the TLS`
 
