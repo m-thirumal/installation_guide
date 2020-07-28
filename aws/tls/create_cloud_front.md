@@ -1,10 +1,10 @@
 # Set up Cloud Front for S3 static web site
 
-1. Generate TLS & add the certificate to `Certificate Manager`. Refer [Let's Crypt link](../../TLS/let's_encrypt.md)
+1. Generate TLS & add the certificate to `Certificate Manager`. Refer [Let's Encrypt doc](../../TLS/let's_encrypt.md)
 
 2. Go to Cloud Front and select `Create distribution` and again select `Get Started` under `Web`.
 
-3. Copy the end point from `www domain name` S3 bucket (Caution: Don't select the auto-select option)
+3. Copy the end point from `www domain name` S3 bucket (Caution: Don't select the auto-select option) and add to
 
   ![Copy www end point](copy_www_end_point.png)
   
