@@ -37,8 +37,11 @@
 
 1. Create certificate manager in `N-Virginia` region
   ![Certificate Manager](certificate_manager.png)
-2. Go to AWS Certificate Manager > Import a certificate
-3. Add the content of `cert.pem` to Certificate body
+  
+2. Go to AWS Certificate Manager > `Import a certificate`
+3. Add the content of `cert.pem` to Certificate body. Use `cat cert.pem` in terminal to print the content of `pem` file
 4. Add the content of `privkey.pem` to Certificate private key
 5. Add the content of `chain.pem` to Certificate chain
 
+  ![Import PEM to Certificate Manager](import_pem_to_certificate_mananger.png)
+  
