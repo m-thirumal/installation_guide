@@ -8,11 +8,15 @@
 
 2. Configure `non-www` bucket to redirect to `www` bucket
 
+  ![Redirect non-www to www](redirect_to_www.png)
+
 3. Upload your web content to www bucket
 
 4. Configure www bucket for web-hosting by selecting `static website hosting`
 
-5. Make www bucket as `public` and add the below policy
+ ![Enable Static Website Hosting](enable_static_website_hosting.png)
+
+5. Make www bucket as `public` and add the below `policy`
 
 ```
 {
@@ -28,10 +32,15 @@
     ]
 }
 ```
+  ![Make Bucket public](make_public_access.png)
+  
+  ![Bucket Public Policy](bucket_public_policy.png)
 
 6. Create AWS route53 public hosted zone with the same name as the domain name (Non-WWW).
 
 7. Update GoDaddy NS with AWS provided NS (without ending dot(.).
+
+  ![Adding Name server in AWS](name_server_in_aws.png)
 
 8. In AWS Route53 
 	
@@ -39,5 +48,5 @@
 	
 	create `A Type` recordset for www subdomain and point to S3 www bucket.
 	
-9. Access your website from browser
+9. Access your web site from browser. Enjoy
 
