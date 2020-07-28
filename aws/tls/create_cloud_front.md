@@ -33,4 +33,4 @@
   ![CNAME in list of records](final_record_list_with_cname.png)
   
 
-Expected error will be in the origin path (Clear)s
+Expected error `Key is not found` will be in the origin path (Clear)
