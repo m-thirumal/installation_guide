@@ -44,9 +44,15 @@
 
 8. In AWS Route53 
 	
-	create `A Type`  recordset for the `non-www` domain and select Alias Checkbox to Yes and point it to `S3 main bucket`
+	create `A Type`  recordset for the `non-www` domain and select 
 	
-	create `A Type` recordset for `www` subdomain and point to S3 `www` bucket.
+	1. Alias to S3 website endpoint, 
+	2. Select the region of your bucket
+	3. Select your `S3 main bucket` (i.e non-www domain)
+	
+	create `A Type` recordset for `www` subdomain and repeat the above steps/points except the selecting S3 `www` bucket.
+	
+  ![Create A Record](create_a_record.png)
 	
 9. Access your web site from browser. Enjoy
 
