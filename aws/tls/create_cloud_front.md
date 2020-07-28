@@ -31,3 +31,6 @@
 
   ![Add Cloud Front Domain name to Route 53](add_cloud_front_domain_name_to_route_53.png)
   ![CNAME in list of records](final_record_list_with_cname.png)
+  
+
+Expected error will be in the origin path (Clear)s
