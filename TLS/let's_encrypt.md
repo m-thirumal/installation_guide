@@ -44,4 +44,5 @@
 5. Add the content of `chain.pem` to Certificate chain
 
   ![Import PEM to Certificate Manager](import_pem_to_certificate_mananger.png)
+  ![Import Success](import_success.png)
   
