@@ -1,5 +1,9 @@
 # Set up Cloud Front for S3 static web site
 
+![OVerall Concept](concept.png)
+
+###Steps
+
 1. Generate TLS & add the certificate to `Certificate Manager`. Refer [Let's Encrypt doc](../../TLS/let's_encrypt.md)
 
 2. Go to Cloud Front and select `Create distribution` and again select `Get Started` under `Web`.
