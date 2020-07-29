@@ -30,6 +30,7 @@
 ### Nginx
 1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
 2. [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
+3. [Add TLS For Nginx Hosted Site](Add_TLS_For_Nginx_Hosted_Site.md)
 
 ### Git
 1. [SSH Clone](git/ssh_git_clone.md)
