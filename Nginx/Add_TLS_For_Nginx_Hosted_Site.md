@@ -2,7 +2,8 @@
 
 1. Set `Domain name` or `Hostname` name of the server using the following command.
 
-	sudo hostnamectl set-hostname thirumal.org
+    `sudo hostnamectl set-hostname thirumal.org`
+	
 2. next, check the hostname by typing `hostname` in Terminal
 
 suppose, if you get an error 
@@ -23,7 +24,7 @@ Proper way of setting name:-
 
 3. Install Nginx
 
-	sudo apt install nginx
+	`sudo apt install nginx`
 	
 4. Add `A Record`  in your `Website hosting` service provider  Gogaddy/AWS Route 53...
 
@@ -52,4 +53,4 @@ Proper way of setting name:-
 
 8. Save the file and reload the Nginx configuration using the below command.
 	
-	sudo nginx -s reload            
+	`sudo nginx -s reload`            
