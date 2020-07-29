@@ -22,7 +22,7 @@
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
-2. [Add TLS for static website using Let's Encrypt](aws/tls/create_cloud_front.md)
+2. [Add TLS for AWS S3 hosted static website using Let's Encrypt](aws/tls/create_cloud_front.md)
 
 ### TLS
 1. [Generate Free TLS/SSL using Let's Encrypt](TLS/let's_encrypt.md)
