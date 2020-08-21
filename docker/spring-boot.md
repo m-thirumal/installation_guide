@@ -1,5 +1,7 @@
 # Create docker and run the image
 
+#### [Create JAR](../spring-boot-jar/create_jar.md)
+
 #### Create docker image
 
 Go to the project location and enter the below command
