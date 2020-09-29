@@ -15,6 +15,8 @@ sudo docker stop pgadmin
 
 ```
  sudo docker rm pgadmin
+ or 
+ sudo docker rm --force pgadmin
 ```
 
 4. Run the latest images
