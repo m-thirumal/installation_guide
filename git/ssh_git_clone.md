@@ -10,7 +10,7 @@ thirumal@thirumal:~/git$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/thirumal/.ssh/id_rsa): 
  ```
- 2. Press enter to accept the default key and path, /c/Users/<username>/.ssh/id_rsa.
+ 2. Press enter to accept the default key and path, `/c/Users/<username>/.ssh/id_rsa`.
  3. Enter and re-enter a passphrase when prompted.The command creates your default identity with its public and private keys. The whole interaction looks similar to this:
  
  ```
@@ -39,3 +39,31 @@ The key's randomart image is:
 `cat ~/.ssh/id_rsa.pub`
 2. Add it to your account 
 3. Return to your terminal and clone the repository using ssh `git@github.com:M-Thirumal/installation_guide.git`
+
+##### Authentication Test
+
+1. Now run following command to test authentication from server command line terminal
+
+Bitbucket
+
+    ssh -T git@bitbucket.org
+
+Github
+
+    ssh -T git@github.com
+
+Gitlab
+
+    ssh -T git@gitlab.com
+
+#### Origin URL Replacement
+    
+Go to repo directory and open `vi .git/config` file
+
+Replace remote `origin` url (which starts with https) with following -
+
+    For Bitbucket - git@bitbucket.org:<username>/<repo>.git
+    
+    For Github - git@github.com:<username>/<repo>.git
+    
+    For Gitlab - git@gitlab.com:<username>/<repo>.git
