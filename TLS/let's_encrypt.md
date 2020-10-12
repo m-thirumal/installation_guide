@@ -43,6 +43,8 @@
 4. Add the content of `privkey.pem` to Certificate private key
 5. Add the content of `chain.pem` to Certificate chain
 
+### Same steps for Renewal
+
   ![Import PEM to Certificate Manager](import_pem_to_certificate_mananger.png)
   
   ![Import Success](import_success.png)
