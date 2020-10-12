@@ -52,6 +52,10 @@ Use AWS-CLI to import new certificate (Note: this will not work for renewal)
 To Re-Import, need to specify ceritificate arn
 
     aws --region us-east-1 acm import-certificate --certificate "file:///Users/thirumal/certificate/live/indsolv.com/cert.pem" --private-key "file:///Users/thirumal/certificate/live/indsolv.com/privkey.pem" --certificate-chain "file:///Users/thirumal/certificate/live/indsolv.com/fullchain.pem" --certificate-arn arn:aws:acm:us-east-1:597991982472:certificate/6c1fe3b4-3ba7-4414-ba13-e4e446224aea --profile enkindle_certificate_manager
+    
+To Re-import from linux
+    
+    aws --region us-east-1 acm import-certificate --certificate "file:///etc/letsencrypt/certificate/live/insolvencysoftware.in/cert.pem" --private-key "file:///etc/letsencrypt/certificate/live/insolvencysoftware.in/privkey.pem" --certificate-chain "file:///etc/letsencrypt/certificate/live/insolvencysoftware.in/fullchain.pem" --certificate-arn arn:aws:acm:us-east-1:597991982472:certificate/b4e34784-11fc-4c34-b75b-7135ac46c817 --profile enkindle_certificate_manager
    
     
 ### Same steps for Renewal
