@@ -43,6 +43,12 @@
 4. Add the content of `privkey.pem` to Certificate private key
 5. Add the content of `chain.pem` to Certificate chain
 
+or
+
+Use AWS-CLI to import certificate
+
+    aws --region eu-west-1 acm import-certificate --certificate "/Users/thirumal/certificate/live/indsolv.com/cert.pem" --private-key "/Users/thirumal/certificate/live/indsolv.com/privkey.pem" --certificate-chain "/Users/thirumal/certificate/live/indsolv.com/fullchain.pem"
+    
 ### Same steps for Renewal
 
   ![Import PEM to Certificate Manager](import_pem_to_certificate_mananger.png)
