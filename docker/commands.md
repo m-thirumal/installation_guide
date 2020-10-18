@@ -22,6 +22,8 @@
 
     docker ps -l
 
+    docker ps -a
+
 #### Remove container
 
     docker rm {Container Id}
@@ -40,4 +42,19 @@ To expose port use `-p-`
 
     docker run -d -p {host_os_port}:{docker_port} {image:tag}
     docker run -d -p 9090:80 nginx:alpine
+
+## RUN
+
+Use to install application
+
+    FROM ubuntu
+    RUN apt-get install git
+
+## CMD
+
+Command to execute
+
+    From ubuntu
+    RUN apt-get install nginx
+    ngnixctl -DFOREFROUND
 
