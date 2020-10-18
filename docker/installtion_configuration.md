@@ -3,6 +3,10 @@
     sudo apt install docker-ce docker-ce-cli containerd.io
     sudo apt install docker.io    
 
+### Enable Auto start
+
+    `sudo systemctl enable docker`
+
 #### Add current user into docker group
     
     sudo usermod -aG docker thirumal
