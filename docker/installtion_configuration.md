@@ -7,7 +7,7 @@
 
     `sudo systemctl enable docker`
 
-#### Add current user into docker group
+#### Add user into docker group
     
     sudo usermod -aG docker thirumal
 
