@@ -11,4 +11,7 @@
     
     sudo usermod -aG docker thirumal
 
+#### Logs
+
+    docker logs {container name/id}
     

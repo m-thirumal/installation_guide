@@ -22,3 +22,54 @@
 
     -----Build Now-------
     docker build -t custom_ngnix -f DockerFile .
+
+### Environment variable
+
+    ENV
+
+### Working Directory
+
+    FROM ubuntu
+    RUN apt install nginx
+    WORKDIR /var/www/html
+    ADD https:github.com/M-thirumal/abc.zip ./abc.zip
+    
+    RUN unzip abc.zip && mv abc/* .
+    CMD nginxctl -DFOREGROUND
+
+    -----Build Now-------
+    docker build -t custom_ngnix -f DockerFile .
+
+### Metadata
+
+`Label` can be used to specify metadata
+
+    FROM ubuntu
+    RUN apt install nginx
+    LABEL Maintainer=Thirumal
+    LABEL Vendor=ABC
+
+### Argument
+
+`ARG` can be used as a build time argument
+
+    FROM ubuntu
+    ARG software=nginx
+    RUN apt install $software
+
+    ------------
+    docker build -t custom_ngnix -f DockerFile --build-arg software = vlc .
+
+More than one argument
+
+    FROM ubuntu
+    ARG software=nginx
+    ARG user
+    # Add NEW user from argument
+    RUN adduser $user
+    # Switch to the NEW user
+    USER $user
+    RUN apt install $software
+
+    ------------
+    docker build -t custom_ngnix -f DockerFile --build-arg software = vlc .

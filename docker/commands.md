@@ -36,6 +36,10 @@
 
     docker start {}
 
+#### Name the container
+
+    docker run -d --name {container name} -p 80:80 nginx
+
 #### Expose Port
 
 To expose port use `-p-`
@@ -56,5 +60,16 @@ Command to execute
 
     From ubuntu
     RUN apt-get install nginx
-    ngnixctl -DFOREFROUND
+    ngnixctl -DFOREGROUND
+
+The process must be `foregroud`, otherwise the docker will exit.
+If there is no `foreground` process then use the following command `ti` (terminal) to keep alive for debug
+
+    docker run -d -ti --name {Container_name} -p {PORT:PORT} {image} 
+
+### Login/Access Container
+
+    docker exec -ti {containerName} bash
+
+
 
