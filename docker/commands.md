@@ -76,6 +76,10 @@ To expose port use `-p-`
 
     docker run --rm -ti ubuntu bash
 
+#### Inspect container
+
+    docker inspect {container_id}
+
 ## RUN
 
 Use to install application
