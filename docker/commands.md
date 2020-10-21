@@ -18,6 +18,11 @@
 
     -d => stands for de-attach mode
 
+#### Re-Name
+
+    docker rename {current_container_name} {new_container_name}
+
+
 #### List containers
 
     docker ps -l
