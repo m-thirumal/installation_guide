@@ -15,6 +15,10 @@ Go to the project location and enter the below command
 
        docker run --publish 8000:8080 --detach --name icms icms:1.0
 
+   Externalizing log
+
+       docker run -p 8080:8080 -d --name icms -v /var/lib/docker/volume/icms/logs:/logs icms:1.0
+
 There are a couple of common flags here:
 
    `--publish` asks Docker to forward traffic incoming on the host’s port 8000 to the container’s port 8080. Containers have their own private set of ports, so if you want to reach one from the network, you have to forward traffic to it in this way. Otherwise, firewall rules will prevent all network traffic from reaching your container, as a default security posture.
