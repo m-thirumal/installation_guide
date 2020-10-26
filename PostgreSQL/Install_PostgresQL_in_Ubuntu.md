@@ -26,7 +26,7 @@ sudo  apt-get install postgresql-client
 
    `sudo -u postgres psql`
 
-   `ALTER USER postgres PASSWORD 'NEWPASSWORD'` 
+   `ALTER USER postgres PASSWORD 'NEWPASSWORD';` 
   
 
 
