@@ -25,6 +25,10 @@
 ### FortiClient VPN
 1. [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
 
+### Java
+
+1.[Installation](Java/Installation.md)
+
 ### Install Redis from source
 1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.md)
 2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
