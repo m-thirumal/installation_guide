@@ -19,7 +19,7 @@ Move the unziped `directory` to `java virtual machine`
 
 Check the version
     
-    `java -version`
+    java -version
 
 
 ### OpenJdk Installation on Ubuntu by downloading
@@ -32,7 +32,5 @@ Move the unziped `directory` to `java virtual machine`
 
 Change the default version of `Java`
 
-    sudo update-alternatives --install /usr/bin/java java 
-    /usr/lib/jvm/jdk-11.0.1/bin/java 1
-    sudo update-alternatives --install /usr/bin/javac javac
-    /usr/lib/jvm/jdk-11.0.1/bin/javac 1
+    sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk-15.0.1/bin/java 1
+    sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-15.0.1/bin/javac 1
