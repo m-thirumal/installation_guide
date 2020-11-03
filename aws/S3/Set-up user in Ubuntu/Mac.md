@@ -24,3 +24,7 @@
         aws_access_key_id=
         aws_secret_access_key=
         region=ap-south-1
+
+5. Usage of multiple profile.
+
+        aws syc s3://{bucketname}/{folderName}
