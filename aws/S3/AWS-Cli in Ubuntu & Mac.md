@@ -1,5 +1,8 @@
-# Set Up User config in Ubuntu/Mac OS
+# Install AWS CLi
 
+        sudo apt install awscli
+
+# Set Up User config in Ubuntu/Mac OS
 1. Create IAM user & have it ready `Access and Secrete key`
 2. Create `.aws` folder in your home directory
 
