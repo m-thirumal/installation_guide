@@ -1,3 +1,5 @@
+### To set up aws cli check [Set up aws cli in Ubuntu/Mac](set%20up%20user%20in%20ubuntu%20&%20Mac.md)
+
 ### List buckets 
 
     aws s3 ls
