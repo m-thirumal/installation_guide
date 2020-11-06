@@ -19,3 +19,9 @@
 --Download multiple files
 
     aws s3 cp s3://{bucketName}/{folderName} /home/thirumal/Downloads/ --recursive
+    
+ 
+### Use double quotes, if there is any space in directory / file name
+
+     aws s3 cp {fileName} "s3://{bucketname}/{folderName}"
+    
