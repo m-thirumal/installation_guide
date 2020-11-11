@@ -7,3 +7,8 @@
 
     docker network ls
 
+### Inspecting a Docker network
+
+    docker network inspect networkname
+
+    docker network inspect bridge
