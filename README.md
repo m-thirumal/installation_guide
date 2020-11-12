@@ -19,11 +19,16 @@
 4. [Context](docker/context.md)
 5. [Persistent Data & Volume](docker/persistent_data&volume.md)
 6. [Docker UI](docker/docker_ui_Portainer.md)
-7. [Network](docker/network.md) 
-8. [Docker Spring Boot](docker/spring-boot.md) 
+7. [Network](docker/network.md)
+8. [Docker Spring Boot](docker/spring-boot.md)
 
 ### FortiClient VPN
 1. [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
+2. [IPsec VPN in Ubuntu](Forticlient/IPsec VPN in Ubuntu.md)
+
+### Fortigate
+1. [IPsec Setup for Linux/Ubunt](Fortigate/IPsec for Ubuntu.md)
+2. [Network Load balancing](Fortigate/Load balancer/Dual Intenet connection.md)
 
 ### Java
 1.[Installation](Java/Installation.md)
@@ -65,9 +70,9 @@
 
 ![Ngnix](Nginx/Default.png)
 
-### Spring boot 
+### Spring boot
 
 1. [Create JAR](spring-boot-jar/create_jar.md)
 
-### Forticlient 
+### Forticlient
 ![Forticlient](Forticlient/Forticlient.png)

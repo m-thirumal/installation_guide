@@ -14,3 +14,6 @@
     * `255.255.255.255` - Subnet mask
 
 ![Set Up](Setup.png)
+![Authentication](Authentication.png)
+![Policy Routing](Policy_Routing.png)
+![Summary](Summary.png)
