@@ -27,7 +27,7 @@
 2. [IPsec VPN in Ubuntu](Forticlient/IPsec VPN in Ubuntu.md)
 
 ### Fortigate
-1. [IPsec Setup for Linux/Ubunt](Fortigate/IPsec for Ubuntu.md)
+1. [IPsec Setup for Linux/Ubuntu](Fortigate/IPsec for Ubuntu.md)
 2. [Network Load balancing](Fortigate/Load balancer/Dual Intenet connection.md)
 
 ### Java
