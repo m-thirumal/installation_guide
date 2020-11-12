@@ -16,4 +16,8 @@
     * Enter the pre-shared key
 * Connect to VPN !!!!
 
- 
+
+### Known problems
+
+* Internet access
+    * Go to `VPN` -> `IPv4` -> check on `Use this connection only for reources on it's network`
