@@ -38,6 +38,12 @@ Run the below command to install pgModeler in '/Application'
 
 Go to application and select pgmodeler
 
+##### Known Problem
+
+* Dark shaded table and relationships
+  
+   Go to -> PgModeler -> Preferences -> Appearance -> Select `Default`
+
 Enjoy !!!
 
 ![output](mac-pgmodeler.png)
