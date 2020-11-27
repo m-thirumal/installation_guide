@@ -42,7 +42,7 @@ Enjoy !!!
 
 ![output](mac-pgmodeler.png)
 
-![output](Mac-Pgmodeler-1.png)
+![output](Mac-PgModeler-1.png)
 
 ##### Known Problem
 
