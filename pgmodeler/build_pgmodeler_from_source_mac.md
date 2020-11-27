@@ -41,7 +41,8 @@ Go to application and select pgmodeler
 Enjoy !!!
 
 ![output](mac-pgmodeler.png)
-![output](mac-pgmodeler-1.png)
+
+![output](Mac-Pgmodeler-1.png)
 
 ##### Known Problem
 
