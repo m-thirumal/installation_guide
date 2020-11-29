@@ -9,22 +9,21 @@ In `gradle` project, go to project directory run the following command to create
 Without test
 
 	./gradlew build -x test
-	
-	
+
+
 The above command will create the `JAR` in the directory `/build/libs/ {XXXXX.jar}`
-	
-	
+
+
 ### Maven:
 
 	 mvn install
-	 
+
 To skip test
 
 	mvn install –DskipTests
-	
+
 In Mac,
+
+	mvn clean install
 	
 	mvn clean package -DskipTests=true
-	
-	
-	
