@@ -18,7 +18,7 @@ sudo apt-get update
 
 sudo apt-get install postgresql postgresql-contrib
 
-sudo  apt-get install postgresql-client 
+sudo  apt-get install postgresql-client
 
 ```
 
@@ -26,15 +26,15 @@ sudo  apt-get install postgresql-client
 
    `sudo -u postgres psql`
 
-   `ALTER USER postgres PASSWORD 'NEWPASSWORD';` 
-  
+   `ALTER USER postgres PASSWORD 'NEWPASSWORD';`
+
 
 
 ## Access PostgreSQL over network
 
-#### Change listen_address `localhost to *` in  file  /etc/postgresql/{version_number}/main/postgresql.conf 
+#### Change listen_address `localhost to *` in  file  /etc/postgresql/{version_number}/main/postgresql.conf
 ```
-    # - Connection Settings - 
+    # - Connection Settings -
     listen_addresses = '*'          # what IP address(es) to listen on;     
 ```
 
@@ -47,3 +47,8 @@ Add the following line in `# IPv4 local connections`:
 and comment
 
 	#host    all             all             127.0.0.1/32            md5
+
+
+##### Known Problem
+
+* Check the permission problem in `/var` directory to create folder for `data` and `log`.
