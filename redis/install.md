@@ -8,7 +8,7 @@
 
 #### To start redis server
 
-  nohup redis-server &
+    nohup redis-server &
 
 # Mac installlation & Configuration:
 
