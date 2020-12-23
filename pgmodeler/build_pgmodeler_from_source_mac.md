@@ -32,7 +32,7 @@ then, run the below command to build
 
 #### Install
 
-Run the below command to install pgModeler in '/Application'
+Run the below command to install pgModeler in `/Application`
 
 `make && make install`
 
