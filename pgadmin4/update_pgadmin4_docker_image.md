@@ -32,7 +32,9 @@ sudo docker run --name pgadmin -p 5050:80 -v /var/lib/pgadmin:/var/lib/pgadmin  
 
 5. To start docker container
 
-	`sudo docker start pgadmin`
+```
+sudo docker start pgadmin
+```
 	
 
 ![output](Pgadmin4.png)
