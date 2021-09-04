@@ -45,6 +45,10 @@
 
     docker run -d --name {container name} -p 80:80 nginx
 
+##### Run container (restart always)
+
+    docker run --restart always --detach --name auto-start-redis redis
+
 #### Expose Port
 
 To expose port use `-p-`
