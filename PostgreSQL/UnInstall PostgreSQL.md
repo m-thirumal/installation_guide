@@ -5,7 +5,9 @@
 ##### Grep for all PostgreSQL packages in Debian Linux
 
     dpkg -l | grep postgres
+    
     --Add all the list in the below line
+
     sudo apt-get --purge remove {POSTGRESS-PACKAGE NAME}
 
 ##### directory data postgresql
