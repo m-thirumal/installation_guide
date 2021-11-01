@@ -10,7 +10,7 @@
 
     sudo apt-get --purge remove {POSTGRESS-PACKAGE NAME}
 
-##### Delete data/log/conf postgresql
+##### Delete `data/log/conf` postgresql
 
     sudo rm -rf {/var/{lib,log},etc}/postgresql/
 
