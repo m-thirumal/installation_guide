@@ -32,7 +32,7 @@ sudo  apt-get install postgresql-client
 
 ## Access PostgreSQL over network
 
-#### Change listen_address `localhost to *` in  file  /etc/postgresql/{version_number}/main/postgresql.conf
+#### Change listen_address `localhost to *` in  file  `/etc/postgresql/{version_number}/main/postgresql.conf`
 ```
     # - Connection Settings -
     listen_addresses = '*'          # what IP address(es) to listen on;     
