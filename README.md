@@ -12,6 +12,10 @@
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
 3. [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
+## VMware ESXi
+
+1. [Start VM's automatically during the boot](VMware%20ESXi/Start%20VM's%20automatically%20during%20the%20boot.md)
+
 ### Docker
 1. [Installation](docker/installtion_configuration.md)
 2. [Commands](docker/commands.md)
@@ -24,11 +28,11 @@
 
 ### FortiClient VPN
 1. [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
-2. [IPsec VPN in Ubuntu](Forticlient/IPsec VPN in Ubuntu.md)
+2. [IPsec VPN in Ubuntu](Forticlient/IPsec%20VPN%20in%20Ubuntu.md)
 
 ### Fortigate
-1. [IPsec Setup for Linux/Ubuntu](Fortigate/IPsec for Ubuntu.md)
-2. [Network Load balancing](Fortigate/Load balancer/Dual Intenet connection.md)
+1. [IPsec Setup for Linux/Ubuntu](Fortigate/IPsec%20for%20Ubuntu.md)
+2. [Network Load balancing](Fortigate/Load%20balancer/Dual%20Intenet%20connection.md)
 
 ### Java
 1.[Installation](Java/Installation.md)
