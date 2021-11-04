@@ -80,3 +80,6 @@
 
 ### Forticlient
 ![Forticlient](Forticlient/Forticlient.png)
+
+### Maven
+1. [Upgrade Maven](maven/upgrade_maven.md)
