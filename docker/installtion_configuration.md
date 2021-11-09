@@ -10,6 +10,7 @@
 #### Add user into docker group
 
     sudo usermod -aG docker thirumal
+    ---Requires logout & login or restart
 
 #### Logs
 
