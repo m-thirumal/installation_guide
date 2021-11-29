@@ -9,6 +9,10 @@
     docker rmi {image_name/id}
 
     docker rmi -f {image_name/id}
+    
+##### Remove dangling (none) images
+
+    docker rmi $(docker images -f "dangling=true" -q)
 
 ## Container
 
