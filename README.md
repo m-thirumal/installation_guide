@@ -61,6 +61,10 @@
 ### Git
 1. [SSH Clone](git/ssh_git_clone.md)
 
+### 12 Factor App
+
+![12-Factor-App.jpeg](12-Factor-App.jpeg)
+
 ### PgModeler Output
 
 ![Mac OUTPUT](pgmodeler/mac-pgmodeler.png)
