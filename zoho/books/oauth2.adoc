@@ -1,0 +1,15 @@
+== Generate OAuth2 token for zoho applications
+
+1. Create an account in Zoho
+
+2. Create an application in https://accounts.zoho.com/developerconsole  and generate client id and client secret
+
+3. Generate Grant token in the browser by authentication and accept the T&C. Collect the code to generate access & refresh tokens
+  
+    a. Code is valid for only 60 second
+
+`https://accounts.zoho.com/oauth/v2/auth?scope=ZohoBooks.fullaccess.all&client_id=1000.AUY9HPPU4LM81B8010VA30PMTD4E8M&state=testing&response_type=code&redirect_uri=https://evoting.acta.solutions&access_type=offline`
+
+4. Use the code to generate an access token and refresh token. Make sure it’s in the right data center .in, .eu…
+
+`https://accounts.zoho.in/oauth/v2/token?code=1000.71e0db79dbc90efe42567205bdd4c2a3.43a5d79ad25b9939c95df58f30ad636a&client_id=1000.AUY9HPPU4LM81B8010VA30PMTD4E8M&client_secret=991635aae14d2d1acfa4bdc96c2e6f1e1b63a50703&redirect_uri=https://evoting.acta.solutions&grant_type=authorization_code`
