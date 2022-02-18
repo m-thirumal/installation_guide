@@ -67,3 +67,19 @@ Replace remote `origin` url (which starts with https) with following -
     For Github - git@github.com:<username>/<repo>.git
     
     For Gitlab - git@gitlab.com:<username>/<repo>.git
+
+## Troubleshoot
+
+ssh "permissions are too open" error
+ 
+    Permissions 0777 for '/Users/username/.ssh/id_rsa' are too open.
+    It is recommended that your private key files are NOT accessible by others.
+    This private key will be ignored.
+    
+Keys need to be only readable:
+
+    chmod 400 ~/.ssh/id_rsa
+
+If Keys need to be read-writable:
+
+    chmod 600 ~/.ssh/id_rsa
