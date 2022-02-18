@@ -5,7 +5,7 @@
 
 ### Enable Auto start
 
-    `sudo systemctl enable docker`
+    sudo systemctl enable docker
 
 #### Add user into docker group
 
