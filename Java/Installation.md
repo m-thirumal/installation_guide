@@ -10,11 +10,15 @@
 
 ### OpenJdk installation on Mac OSX
 
-Download the latest version of [Java](https://jdk.java.net/15/) & unzip.
+Download the latest version of [Java](https://jdk.java.net/18/) & unzip.
 
 Move the unziped `directory` to `java virtual machine`
 
     sudo mv jdk-11.jdk /Library/Java/JavaVirtualMachines/
+    
+OR Copy 
+
+    sudo tar xvzf openjdk-18_macos-aarch64_bin.tar.gz -C /Library/Java/JavaVirtualMachines
 
 
 Check the version
