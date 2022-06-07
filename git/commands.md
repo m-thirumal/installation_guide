@@ -6,9 +6,13 @@
 
 		git push -u REMOTE-NAME BRANCH-NAME
 
-2. Create new BRANCH
+2. Create new BRANCH locally
 
 		git checkout -b NEW-BRANCH-NAME
+		
+      To push the locally created new branch to remote
+		
+		git push --set-upstream origin  NEW-BRANCH-NAME
 
 3. List local branches
 
