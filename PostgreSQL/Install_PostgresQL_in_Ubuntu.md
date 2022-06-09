@@ -30,7 +30,7 @@ sudo  apt-get install postgresql-client
 
 
 
-## Access PostgreSQL over network
+## Access PostgreSQL over remote network
 
 #### Change listen_address `localhost to *` in  file  `/etc/postgresql/{version_number}/main/postgresql.conf`
 ```
@@ -48,6 +48,14 @@ and comment
 
 	#host    all             all             127.0.0.1/32            md5
 
+
+`Ident` – supported via TCP/IP connections only. It obtains the clients system username with an optional username mapping.
+
+`Password` – a role connects using a password.
+
+`Peer` – similar to ident but only suppoted on local connections.
+
+`Trust` – allows a role to connect as long as conditions defined in the pg_hba.conf are fulfilled.
 
 ##### Known Problem
 
