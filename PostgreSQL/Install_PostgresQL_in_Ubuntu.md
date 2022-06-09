@@ -21,6 +21,20 @@ sudo apt-get install postgresql postgresql-contrib
 sudo  apt-get install postgresql-client
 
 ```
+On successful installation, the PostgreSQL service starts automatically and can be verified as below.
+
+
+```
+db1@1:~$ systemctl status postgresql
+● postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor pr>
+     Active: active (exited) since Wed 2022-06-08 11:07:21 UTC; 17h ago
+   Main PID: 969 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+Jun 08 11:07:21 1 systemd[1]: Starting PostgreSQL RDBMS...
+Jun 08 11:07:21 1 systemd[1]: Finished PostgreSQL RDBMS.
+```
 
 ##### Alter PostgreSQL password
 
