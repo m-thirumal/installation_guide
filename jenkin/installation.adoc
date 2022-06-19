@@ -1,0 +1,17 @@
+= Installing Jenkins on Ubuntu
+
+Use the following commands to install jenkins
+
+[source, shel]
+----
+sudo apt install jenkins
+----
+
+To get admin password, enter the following commands
+
+[source, shell]
+----
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+----
+
+
