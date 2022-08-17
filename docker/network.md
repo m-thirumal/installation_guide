@@ -7,6 +7,10 @@
 
     docker network ls
 
+#### Run docker with host network
+
+    docker --net=host 
+
 ### Inspecting a Docker network
 
     docker network inspect networkname
