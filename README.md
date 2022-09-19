@@ -38,9 +38,9 @@
 1.[Installation](Java/Installation.md)
 
 ### Install Redis from source
-1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.md)
+1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.adoc)
 2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
-3. [Enable remote access](redis/redis_enable_remote_access.md)
+3. [Enable remote access](redis/redis_enable_remote_access.adoc)
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
