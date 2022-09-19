@@ -1,0 +1,40 @@
+== Install Redis Server in Ubuntu
+
+[source, shell]
+----
+sudo apt-get install redis-server
+----
+
+==== To Check the status
+
+[source, shell]
+----
+ps aux | grep redis
+----
+
+==== To start redis server
+
+[source, shell]
+----
+nohup redis-server &
+----
+
+== Mac installlation & Configuration:
+
+[source, shell]
+----
+$ mkdir redis && cd redis
+$ curl -O http://download.redis.io/redis-stable.tar.gz
+$ tar xzvf redis-stable.tar.gz
+$ cd redis-stable
+$ make
+$ make test
+$ sudo make install
+----
+
+=== To Start redis server
+
+[source, shell]
+----
+redis-server
+----
