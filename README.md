@@ -37,6 +37,10 @@
 ### Java
 1.[Installation](Java/Installation.md)
 
+### Jenkins
+1. [Install Jenkin](jenkin/installation.adoc)
+2. [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
+
 ### Install Redis from source
 1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.adoc)
 2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
