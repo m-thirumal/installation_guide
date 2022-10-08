@@ -35,12 +35,29 @@ macx {
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
 }
 ----
+=== For M1, M2... Chip
+[source, shell]
+----
+macx {
+  !defined(PGSQL_LIB, var): PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
+  !defined(PGSQL_INC, var): PGSQL_INC = /Applications/Postgres.app/Contents/Versions/latest/include
+  !defined(XML_INC, var): XML_INC = /opt/homebrew/opt/libxml2/include/libxml2
+  !defined(XML_LIB, var): XML_LIB = /opt/homebrew/opt/libxml2/lib/libxml2.dylib
+  INCLUDEPATH += "$$PGSQL_INC" "$$XML_INC"
+}
+----
 
 then, run the below command to build
 
 [source, shell]
 ----
 /usr/local/opt/qt/bin/qmake -r pgmodeler.pro
+----
+
+=== For M1, M2 Chip
+[source, shell]
+----
+/opt/homebrew/opt/qt6/bin/qmake -r pgmodeler.pro
 ----
 
 ==== Install
