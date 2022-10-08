@@ -20,7 +20,7 @@
 or install all dependencies in one command line
 
 ```
-sudo apt-get install build-essential git qtcreator qt5-default qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev
+sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev
 ```
 
 #### Getting the source
