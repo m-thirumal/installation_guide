@@ -1,0 +1,14 @@
+* Edit the following configuration file
+
+[source, shell]
+----
+sudo vi /etc/redis/redis.conf
+----
+
+* Change bind `127.0.0.1` to bind `0.0.0.0`
+
+* Restart
+[source, shell]
+----
+sudo service redis-server restart
+----
