@@ -69,6 +69,13 @@ and comment
 #host   all          all        127.0.0.1/32                     md5
 ----
 
+==== Restart PostgreSQL to take effect
+
+[source, shell]
+----
+sudo systemctl restart postgresql
+----
+
 We have configured everything required for remote host connection. Verify that the service is listening on port 5432.
 [source, shell]
 ----
