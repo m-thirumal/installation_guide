@@ -37,9 +37,14 @@
 ### Java
 1.[Installation](Java/Installation.md)
 
+### Python
+1.[Installation](python/installation.md)
+2.[Installation](python/virtualevn.adoc)
+
 ### Jenkins
 1. [Install Jenkin](jenkin/installation.adoc)
 2. [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
+3. [Troubleshoot](jenkin/Troubleshoot.adoc)
 
 ### Install Redis from source
 1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.adoc)
