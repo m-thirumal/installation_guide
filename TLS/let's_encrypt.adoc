@@ -33,23 +33,23 @@ Recort type : txt
 Value/Route Traffic ===> IP address or another ...       : {displayed in the terminal}
 ----
 
-image::add_record_txt_to_aws.png[]
+image::img/add_record_txt_to_aws.png[]
   
   
 * Return to your Terminal and press `enter to validate and to generate the TLS`
 
-* It will generate few folders which similar to the image ![folder_structure](folder_structure.png)
+* It will generate few folders which similar to the image::img/folder_structure.png[folder_structure]
 
 * `PEM` files can be found in `archive\website domain name\`
 
-image::tls_files.png[tls_files]
+image::img/tls_files.png[tls_files]
 
 
 ### Add the certificates in the AWS certificate manager
 
 * Create certificate manager in `N-Virginia` region
   
-image::certificate_manager.png[Certificate Manager]
+image::img/certificate_manager.png[Certificate Manager]
   
 * Go to AWS Certificate Manager > `Import a certificate`
 * Add the content of `cert.pem` to Certificate body. Use `cat cert.pem` in terminal to print the content of `pem` file
@@ -81,7 +81,7 @@ aws --region us-east-1 acm import-certificate --certificate "file:///etc/letsenc
     
 ### Same steps for Renewal
 
-image::import_pem_to_certificate_mananger.png[Import PEM to Certificate Manager]
+image::img/import_pem_to_certificate_mananger.png[Import PEM to Certificate Manager]
   
-image::import_success.png[Import Success]
+image::img/import_success.png[Import Success]
   
