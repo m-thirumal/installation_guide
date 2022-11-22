@@ -11,14 +11,14 @@ docker pull certbot/certbot
 
 [source, shell]
 ----
-docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
+docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email racetortoise@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
 ----
 
 With specific certification key type `[rsa, ecdsa]`
 
 [source, shell]
 ----
-docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --key-type rsa --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
+docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --key-type rsa --email racetortoise@gmail.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
 
 ----
 	
