@@ -1,22 +1,31 @@
 == Generate Free TLS/SSL using Let's Encrypt
 
-1. Start Docker and pull `certbot` image
+* Start Docker and pull `certbot` image
 
 [source, shell]
 ----
 docker pull certbot/certbot
 ----
 	
-2. Run the below command
+* Run the below command to generate Certificate
 
 [source, shell]
 ----
 docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
 ----
-	
-3. After running the above command it will ask you to add TXT record to your DNS before pressing enter.
 
-4. Login to your Domain provider (Godaddy/AWS Route 53) to add DNS TXT records.
+With specific certification key type
+[rsa, ecdsa]
+
+[source, shell]
+----
+docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --key-type rsa --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
+
+----
+	
+* After running the above command it will ask you to add TXT record to your DNS before pressing enter.
+
+* Login to your Domain provider (Godaddy/AWS Route 53) to add DNS TXT records.
 
 [source, shell]
 ----
@@ -28,25 +37,25 @@ Value/Route Traffic ===> IP address or another ...       : {displayed in the ter
 image::add_record_txt_to_aws.png[]
   
   
-5. Return to your Terminal and press `enter to validate and to generate the TLS`
+* Return to your Terminal and press `enter to validate and to generate the TLS`
 
-6. It will generate few folders which similar to the image ![folder_structure](folder_structure.png)
+* It will generate few folders which similar to the image ![folder_structure](folder_structure.png)
 
-7. `PEM` files can be found in `archive\website domain name\`
+* `PEM` files can be found in `archive\website domain name\`
 
 image::tls_files.png[tls_files]
 
 
 ### Add the certificates in the AWS certificate manager
 
-1. Create certificate manager in `N-Virginia` region
+* Create certificate manager in `N-Virginia` region
   
 image::certificate_manager.png[Certificate Manager]
   
-2. Go to AWS Certificate Manager > `Import a certificate`
-3. Add the content of `cert.pem` to Certificate body. Use `cat cert.pem` in terminal to print the content of `pem` file
-4. Add the content of `privkey.pem` to Certificate private key
-5. Add the content of `chain.pem` to Certificate chain
+* Go to AWS Certificate Manager > `Import a certificate`
+* Add the content of `cert.pem` to Certificate body. Use `cat cert.pem` in terminal to print the content of `pem` file
+* Add the content of `privkey.pem` to Certificate private key
+* Add the content of `chain.pem` to Certificate chain
 
 or
 
