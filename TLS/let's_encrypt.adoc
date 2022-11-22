@@ -14,8 +14,7 @@ docker pull certbot/certbot
 docker run -it -v /Users/thirumal/certificate:/etc/letsencrypt certbot/certbot certonly --manual --preferred-challenges dns --email xxxx@YYYY.com --server https://acme-v02.api.letsencrypt.org/directory --agree-tos -d '*.example.com'
 ----
 
-With specific certification key type
-[rsa, ecdsa]
+With specific certification key type `[rsa, ecdsa]`
 
 [source, shell]
 ----
