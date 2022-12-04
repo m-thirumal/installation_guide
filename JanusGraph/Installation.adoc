@@ -1,5 +1,9 @@
 == Installation of JanusGraph database
 
+=== Dependencies
+
+* OpenJdk 11
+
 === Running JanusGraph inside a Docker container
 
 [source,shell]
