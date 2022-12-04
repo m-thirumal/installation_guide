@@ -7,6 +7,10 @@
 ### Install PostgreSQL
 1. [Install and Configure PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
+### Janus Graph database
+
+1. [Install and configuration of database](JanusGraph/Installation.adoc)
+
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
