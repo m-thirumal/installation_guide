@@ -10,6 +10,6 @@
 
 [source, shell]
 ----
-:remote connect tinkerpop.server conf/neptune-remote.yaml
+:remote connect tinkerpop.server conf/remote.yaml
 :remote console
 ----
