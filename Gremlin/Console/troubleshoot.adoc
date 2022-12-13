@@ -1,0 +1,12 @@
+== Troubleshoot
+
+* Can't use instance of graph management
+
+Solution:
+
+[source, shell]
+----
+:remote connect tinkerpop.server connect_config session
+Ex:
+:remote connect tinkerpop.server conf/remote.yaml session
+----
