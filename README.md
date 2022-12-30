@@ -1,5 +1,7 @@
 # Installation Guide
 
+[Visit Website](https://m-thirumal.github.io/installation_guide)
+
 ### Build PgModeler from source code
 1. [Guide for Ubuntu](docs/pgmodeler/build_pgmodeler_from_source_ubuntu.md)
 2. [Guide for Mac](docs/pgmodeler/build_pgmodeler_from_source_mac.md)
