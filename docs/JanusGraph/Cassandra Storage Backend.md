@@ -47,6 +47,7 @@ edgestore        system_properties_lock_  system_properties
 The most important table is “edgestore”. This is where all the graph data (vertices, edges and properties) are stored. So let’s view this table data.
 
 ```
+
 cqlsh:janusgraph> SELECT * FROM edgestore;
 
  key                | column1            | value
@@ -65,7 +66,7 @@ cqlsh:janusgraph> SELECT * FROM edgestore;
  0x4000000000000080 |               0x02 |                 0x00010488
  0x4000000000000080 |               0x24 |               0x048d0888ff
  0x4000000000000080 |             0x50c0 |               0xa070b10c88
- ````
+ ```
 
 
 ### To Drop janus database, drop the keyspace.
