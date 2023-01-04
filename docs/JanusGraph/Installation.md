@@ -3,10 +3,12 @@
 ### Dependencies
 
 * OpenJdk 11
+* [Cassandra](../Cassandra/Installation.md) (Used in this tutorial, can use other backend storage)
 
 ### Running JanusGraph 
 
 * Download the JanusGraph and create new linux user 'janus' and unzip the download to `/opt` and give ownership to `janus` user
+
 * By default, the janus will work with inmemory, use link:../Cassandra/Installation.adoc[Cassandra]
 
 

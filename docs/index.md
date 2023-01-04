@@ -7,6 +7,10 @@
 ### Install PostgreSQL
 1. [Install and Configure PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
+### Cassandra
+
+1. [Cassandra Installation](Cassandra/Installation.md)
+
 ### Janus Graph database
 
 1. [Install and configuration of database](JanusGraph/Installation.md)
