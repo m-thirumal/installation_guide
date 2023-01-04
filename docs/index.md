@@ -9,7 +9,7 @@
 
 ### Janus Graph database
 
-1. [Install and configuration of database](JanusGraph/Installation.adoc)
+1. [Install and configuration of database](JanusGraph/Installation.md)
 
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)

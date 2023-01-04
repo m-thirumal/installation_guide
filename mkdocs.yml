@@ -16,6 +16,12 @@ theme:
         name: Switch to light mode
       primary: indigo
       accent: indigo
+  features:
+    - content.code.copy
+extra_css:
+  - stylesheets/extra.css
+
+
     
     
 

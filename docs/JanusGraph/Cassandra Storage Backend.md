@@ -1,9 +1,8 @@
-=== Cassandra Storage Backend
+### Cassandra Storage Backend
 
 Change the follwoing line in `janusgraph-server.sh`
 
-[source, shell]
-----
+```
 useGremlinServerConfiguration(){
     if [[ -n "$1" ]] ; then
       setValidConfiguration "$1"
@@ -13,7 +12,7 @@ useGremlinServerConfiguration(){
       setValidConfiguration "$JANUSGRAPH_YAML"
     fi
 }
-----
+```
 
 
 To Drop janus database, drop the keyspace.

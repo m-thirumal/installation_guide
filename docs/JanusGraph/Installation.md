@@ -1,41 +1,39 @@
-== Installation of JanusGraph database
+## Installation of JanusGraph database
 
-=== Dependencies
+### Dependencies
 
 * OpenJdk 11
 
-=== Running JanusGraph 
+### Running JanusGraph 
 
 * Download the JanusGraph and create new linux user 'janus' and unzip the download to `/opt` and give ownership to `janus` user
 * By default, the janus will work with inmemory, use link:../Cassandra/Installation.adoc[Cassandra]
 
 
-=== Running JanusGraph inside a Docker container
+### Running JanusGraph inside a Docker container
 
-[source,shell]
-----
+```
 docker run -it -p 8182:8182 janusgraph/janusgraph
-----
+```
 
-=== Connect using Gremlin Console
+### Connect using Gremlin Console
 
 Download apache gremlin console and run the following commands to connect 
 
-[source, shell]
-----
+```
 $ cd janusgraph-X.x.x
 $ bin/gremlin.sh
 
-         \,,,/
-         (o o)
+        \,,,/
+        (o o)
 -----oOOo-(3)-oOOo-----
 09:12:24 INFO  org.apache.tinkerpop.gremlin.hadoop.structure.HadoopGraph  - HADOOP_GREMLIN_LIBS is set to: /usr/local/janusgraph/lib
 plugin activated: tinkerpop.hadoop
 plugin activated: janusgraph.imports
 gremlin> :remote connect tinkerpop.server conf/remote.yaml
-==>Configured localhost/127.0.0.1:8182
+##>Configured localhost/127.0.0.1:8182
 gremlin> :remote console
-==>All scripts will now be sent to Gremlin Server - [localhost/127.0.0.1:8182] - type ':remote console' to return to local mode
+##>All scripts will now be sent to Gremlin Server - [localhost/127.0.0.1:8182] - type ':remote console' to return to local mode
 gremlin> g.V().count()
------
+```
 
