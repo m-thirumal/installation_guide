@@ -9,6 +9,7 @@ tar -xf apache-cassandra-3.11.0-bin.tar.gz
 ```
 
 * Create new linux user `cassandra` and give ownership to `cassandra` user 
+
 ```
 adduser cassandra
 chown -R cassandra:cassandra apache-cassandra-X.xx.x

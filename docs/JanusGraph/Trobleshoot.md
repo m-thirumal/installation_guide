@@ -1,5 +1,7 @@
-# To fix Vertex does not support user supplied identifiers
-Set the following property in `conf/janusgraph-cql.properties`
+### <u>Allow user defined ID to Vertex & Edge :-</u>
+
+
+Set the below property in `conf/janusgraph-cql.properties`
 
 ```
 graph.set-vertex-id=true
