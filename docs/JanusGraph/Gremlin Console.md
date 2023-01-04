@@ -13,6 +13,11 @@ $ bin/gremlin.sh
 09:12:24 INFO  org.apache.tinkerpop.gremlin.hadoop.structure.HadoopGraph  - HADOOP_GREMLIN_LIBS is set to: /usr/local/janusgraph/lib
 plugin activated: tinkerpop.hadoop
 plugin activated: janusgraph.imports
+```
+
+<u>To connect to remote server :-</u>
+
+```
 gremlin> :remote connect tinkerpop.server conf/remote.yaml
 
 ##>Configured localhost/127.0.0.1:8182
