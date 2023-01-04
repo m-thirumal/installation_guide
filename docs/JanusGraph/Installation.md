@@ -5,7 +5,7 @@
 * OpenJdk 11
 * [Cassandra](../Cassandra/Installation.md) (Used in this tutorial, can use other backend storage)
 
-### Running JanusGraph 
+### Download & Setup JanusGraph 
 
 * Download the JanusGraph and create new linux user 'janus' and unzip the download to `/opt` and give ownership to `janus` user
 
@@ -16,6 +16,21 @@ chown -R janus:janus janusgraph-X.xx.x
 ```
 
 * By default, the janus will work with inmemory, use [Cassandra](../Cassandra/Installation.adoc)
+
+### <u>Run :-</u>
+Edit `/opt/janusgraph-1.0.0-rc1/bin/janusgraph-server.sh` file, and set `gremlin-server/gremlin-server-cql.yaml` value to 
+
+```
+useGremlinServerConfiguration(){
+    if [[ -n "$1" ]] ; then
+      setValidConfiguration "$1"
+    elif [[ -z "$JANUSGRAPH_YAML" ]]; then
+      setValidConfiguration "gremlin-server/gremlin-server-cql.yaml"
+    elif [[ -r "$JANUSGRAPH_YAML" ]]; then
+      setValidConfiguration "$JANUSGRAPH_YAML"
+    fi
+}
+```
 
 
 ### Running JanusGraph inside a Docker container
