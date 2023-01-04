@@ -32,6 +32,20 @@ useGremlinServerConfiguration(){
 }
 ```
 
+Then, to start
+
+```
+./janusgraph-server.sh start
+```
+and to stop
+```
+./janusgraph-server.sh stop
+```
+to restart
+```
+./janusgraph-server.sh restart
+```
+
 
 ### Running JanusGraph inside a Docker container
 
