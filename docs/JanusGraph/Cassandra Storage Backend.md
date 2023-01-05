@@ -27,6 +27,8 @@ su cassandra
 Get the list of keyspaces.
 
 ```
+./cqlsh
+
 cqlsh> DESCRIBE KEYSPACES;
 
 system_schema  system      system_distributed
@@ -37,6 +39,7 @@ You see that JanusGraph created a keyspace “janusgraph”. Let’s use this ke
 
 ```
 cqlsh> USE janusgraph;
+
 cqlsh:janusgraph> DESCRIBE TABLES;
 
 edgestore_lock_  graphindex_lock_         janusgraph_ids
