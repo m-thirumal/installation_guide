@@ -21,13 +21,15 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-
-    
-    
-
 #  logo: assets/logo.png
 #extra:
 #    homepage: https://www.evoters.in
 
 plugins:
   - search
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
