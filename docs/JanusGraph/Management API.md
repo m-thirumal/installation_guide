@@ -14,10 +14,20 @@ Connect to gremlin and open session
 ```
  ./gremlin.sh 
 
-:remote console
+
 
 :remote connect tinkerpop.server conf/remote.yaml session
+
+:remote console
+
+mgmt = graph.openManagement()
+
+# mgmt.commit()
 ```
+
+### Print Schema
+
+    mgmt.printSchema()
 
 ### <u>Define Vertex schema</u>
 
