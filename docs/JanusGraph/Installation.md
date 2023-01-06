@@ -53,10 +53,3 @@ to restart
 docker run -it -p 8182:8182 janusgraph/janusgraph
 ```
 
-### <u>Drop database</u>
-
-```
-gremlin> graph = JanusGraphFactory.open('/opt/janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties')
-==>standardjanusgraph[cql:[127.0.0.1]]
-gremlin> JanusGraphFactory.drop(graph);
-```

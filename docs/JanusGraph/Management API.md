@@ -14,8 +14,6 @@ Connect to gremlin and open session
 ```
  ./gremlin.sh 
 
-
-
 :remote connect tinkerpop.server conf/remote.yaml session
 
 :remote console
@@ -101,4 +99,13 @@ mgmt.commit()
 ```
 types = mgmt.getRelationTypes(PropertyKey.class)
 types.each{println "$it\t: " + mgmt.getPropertyKey("$it").dataType() + " " + mgmt.getPropertyKey("$it").cardinality()}
+```
+
+
+### <u>Drop database</u>
+
+```
+gremlin> graph = JanusGraphFactory.open('/opt/janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties')
+==>standardjanusgraph[cql:[127.0.0.1]]
+gremlin> JanusGraphFactory.drop(graph);
 ```
