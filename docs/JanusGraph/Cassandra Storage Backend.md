@@ -51,9 +51,11 @@ The most important table is “edgestore”. This is where all the graph data (v
 
 ```
 cqlsh: janusgraph> SELECT * FROM edgestore;
+```
 
 output:-
 
+```
  key                | column1            | value
 --------------------+--------------------+----------------------------
  0x0000000000000c15 |               0x02 |                 0x00015480
