@@ -31,5 +31,7 @@ gremlin> graph
 
 gremlin> g
 
+gremlin>:exit
+
 ```
 
