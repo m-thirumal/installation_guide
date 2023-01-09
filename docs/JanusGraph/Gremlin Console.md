@@ -1,10 +1,10 @@
 ## Connect using Gremlin Console
 
-Download apache gremlin console and run the following commands to connect 
+* Download and unzip apache gremlin console 
+* Edit the `IP address` in `conf/remote-objects.yaml` file
+* Run `bin/gremlin.sh`
 
 ```
-$ cd janusgraph-X.x.x
-
 $ bin/gremlin.sh
 
         \,,,/
