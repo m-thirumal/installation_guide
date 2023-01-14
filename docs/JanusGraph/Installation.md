@@ -2,7 +2,7 @@
 
 ### Dependencies
 
-* OpenJdk 11
+* OpenJdk 11 [Refer Guide](../Java/Installation.md)
 * [Cassandra](../Cassandra/Installation.md) (Used in this tutorial, can use other backend storage)
 
 ### Download & Setup JanusGraph 
