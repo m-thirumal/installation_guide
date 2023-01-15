@@ -26,15 +26,15 @@ sudo  apt-get install postgresql-client
 
 ### Connect to PostgreSQL
 
-
-  sudo -u postgres psql
-
+```
+sudo -u postgres psql
+```
 
 ### Alter PostgreSQL password
 
-
-  ALTER USER postgres PASSWORD 'NEWPASSWORD';
-
+```
+ALTER USER postgres PASSWORD 'NEWPASSWORD';
+```
 
 ## Access PostgreSQL over network
 
