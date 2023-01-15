@@ -42,4 +42,4 @@ sudo docker run --restart always --name pgadmin -p 5050:80 -v /var/lib/pgadmin:/
 sudo docker start pgadmin
 ```
 	
-[Pgadmin4.png](Pgadmin4.png)
+![Pgadmin4.png](Pgadmin4.png)
