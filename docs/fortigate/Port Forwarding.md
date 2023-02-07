@@ -11,6 +11,7 @@ Configuration Setps:-
 2. Firewall Policy
 
 ## Virtual IP
+
 ![Virutal IP List](img/virtual%20ip.png)
 
 1. Login to Fortinet, and go to `Policy & Objects` -> `Objects` and select `Vitual IPs` & `create new Virtual IPs`
@@ -34,3 +35,5 @@ Configuration Setps:-
     * Schedule - alway
     * service - all
     * NAT - off
+
+    ![IP4 Policy](img/policy.png)
