@@ -1,32 +1,23 @@
-=== Build pgmodeler from the source for MAC
+### Build pgmodeler from the source for MAC
 
-=== Clone
+### Clone
 
-[source, shell]
-----
-git clone https://github.com/pgmodeler/pgmodeler.git
-----
+    git clone https://github.com/pgmodeler/pgmodeler.git
+    cd pgmodeler
 
-[source, shell]
-----
-cd pgmodeler
-----
-
-=== Build
+### Build
 
 1. Install PostgreSQL
 2. Install Xcode
 3. Install libxml2, qt & libpq
 
-[source, shell]
-----
+`
 brew install qt libxml2 libpq
-----
+`
 
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
-[source, shell]
-----
+```
 macx {
   PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/13/lib/libpq.dylib
   PGSQL_INC = /Applications/Postgres.app/Contents/Versions/13/include
@@ -34,10 +25,9 @@ macx {
   XML_LIB = /usr/local/Cellar/libxml2/2.9.10_2/lib/libxml2.dylib
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
 }
-----
-=== For M1, M2... Chip
-[source, shell]
-----
+```
+### For M1, M2... Chip
+```
 macx {
   !defined(PGSQL_LIB, var): PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
   !defined(PGSQL_INC, var): PGSQL_INC = /Applications/Postgres.app/Contents/Versions/latest/include
@@ -45,39 +35,32 @@ macx {
   !defined(XML_LIB, var): XML_LIB = /opt/homebrew/opt/libxml2/lib/libxml2.dylib
   INCLUDEPATH += "$$PGSQL_INC" "$$XML_INC"
 }
-----
+```
 
 then, run the below command to build
 
-[source, shell]
-----
-/usr/local/opt/qt/bin/qmake -r pgmodeler.pro
-----
 
-=== For M1, M2 Chip
-[source, shell]
-----
-/opt/homebrew/opt/qt6/bin/qmake -r pgmodeler.pro
-----
+    /usr/local/opt/qt/bin/qmake -r pgmodeler.pro
 
-==== Install
+### For M1, M2 Chip
+
+    /opt/homebrew/opt/qt6/bin/qmake -r pgmodeler.pro
+
+#### Install
 
 Run the below command to install pgModeler in `/Application`
 
-[source, shell]
-----
-make && make install
-----
+    make && make install
 
 Go to application and select pgmodeler
 
 Enjoy !!!
 
-image::mac-pgmodeler.png[]
+![](mac-pgmodeler.png)
 
-image::Mac-PgModeler-1.png[]
+![](Mac-PgModeler-1.png)
 
-##### Known Problem
+#### Known Problem
 
 * Dark shaded table and relationships
 
