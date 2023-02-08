@@ -1,4 +1,4 @@
-site_name: Installation Tutorial for various software
+site_name: Guide for installing and configuring software
 theme:
   name: material
   palette:
@@ -18,6 +18,8 @@ theme:
       accent: indigo
   features:
     - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt
 extra_css:
   - stylesheets/extra.css
 
@@ -33,3 +35,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+
+repo_url: https://github.com/m-thirumal/installation_guide
+repo_name: m-thirumal/installation_guide
+
+
