@@ -15,7 +15,9 @@ In the absence of an index, JanusGraph will default to a full graph scan in orde
 
 1. Add the following properties to `janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties`
 
-    `force-index=true`
+```
+force-index=true
+```
 
 2. Then, follow the janusgraph documentation
 
