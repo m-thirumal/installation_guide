@@ -37,7 +37,7 @@ mgmt.updateIndex(mgmt.getGraphIndex("byNameAndAgeComposite"), SchemaAction.REIND
 mgmt.commit()
 ```
 
-3. To check/test, use `profile`
+3. To check/test, use `.profile()`
 
 ```
 gremlin> g.V().hasLabel('user').has('name','Thirumal').elementMap().profile()
