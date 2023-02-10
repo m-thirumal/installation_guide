@@ -14,6 +14,10 @@
 ### Janus Graph database
 
 1. [Install and configuration of database](JanusGraph/Installation.md)
+2. [Gremlin Console](JanusGraph/Gremlin%20Console.md)
+3. [Management API](JanusGraph/Management%20API.md)
+4. [Indexing](JanusGraph/indexing.md)
+5. [Drop Graph/database](JanusGraph/Management%20API.md)
 
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
