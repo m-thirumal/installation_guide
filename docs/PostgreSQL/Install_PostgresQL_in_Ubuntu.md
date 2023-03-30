@@ -36,6 +36,12 @@ sudo -u postgres psql
 ALTER USER postgres PASSWORD 'NEWPASSWORD';
 ```
 
+### TO CHECK TYPE OF PASSWORD ENCRYPTION USED
+
+```
+ select rolpassword from pg_authid where rolname = 'postgres';
+```
+
 ## Access PostgreSQL over network
 
 ### Change listen_address `localhost to *` in  file  `/etc/postgresql/{version_number}/main/postgresql.conf`
@@ -49,13 +55,13 @@ listen_addresses = '*'      # what IP address(es) to listen on;
 Add the following line in `# IPv4 local connections`:
 
 ```
-host   all             all          0.0.0.0/0                   md5
+host   all             all          0.0.0.0/0                   scram-sha-256
 ```
 
 and comment
 
 ```
-#host   all          all        127.0.0.1/32                     md5
+#host   all          all        127.0.0.1/32                     scram-sha-256
 ```
 
 #### Restart PostgreSQL to take effect
