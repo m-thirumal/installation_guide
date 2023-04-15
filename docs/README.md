@@ -1,4 +1,4 @@
-# Installation Guide
+# [Installation Guide](https://m-thirumal.github.io/installation_guide/#/)
 
 ### Build PgModeler from source code
 1. [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
