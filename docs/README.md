@@ -24,7 +24,7 @@
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
 3. [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
-## VMware ESXi
+### VMware ESXi
 
 1. [Start VM's automatically during the boot](VMware%20ESXi/Start%20VM's%20automatically%20during%20the%20boot.md)
 
