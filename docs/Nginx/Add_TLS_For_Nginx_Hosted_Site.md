@@ -4,7 +4,7 @@
 
     `sudo hostnamectl set-hostname thirumal.org`
 	
-2. next, check the hostname by typing `hostname` in Terminal
+2. Next, check the hostname by typing `hostname` in Terminal
 
 suppose, if you get an error 
 	
@@ -26,9 +26,9 @@ Proper way of setting name:-
 
 	`sudo apt install nginx`
 	
-4. Add `A Record`  in your `Website hosting` service provider  Gogaddy/AWS Route 53...
+4. Add `A Record` with your `public ip` in your `Website hosting` service provider  `Gogaddy/AWS Route 53`...
 
-5. Install & enable `CERTBOT` use the steps defined in the [https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx](https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx)       
+5. Install & enable `CERTBOT` use the steps defined in the [Certbot Installation and Configuration](../TLS/certbot.md)       
 
 ### To Forward to any other http Port
 
