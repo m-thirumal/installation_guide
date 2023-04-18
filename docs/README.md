@@ -1,4 +1,4 @@
-# [Installation Guide](https://m-thirumal.github.io/installation_guide/#/)
+# Installation Guide
 
 ### Build PgModeler from source code
 1. [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
@@ -24,7 +24,7 @@
 2. [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
 3. [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
-### VMware ESXi
+## VMware ESXi
 
 1. [Start VM's automatically during the boot](VMware%20ESXi/Start%20VM's%20automatically%20during%20the%20boot.md)
 
@@ -58,10 +58,14 @@
 2. [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
 3. [Troubleshoot](jenkin/Troubleshoot.adoc)
 
-### Install Redis from source
-1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.adoc)
-2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
-3. [Enable remote access](redis/redis_enable_remote_access.adoc)
+### Redis
+1. [Installation using apt](redis/install.md)
+2. [Installation using docker](redis/docker.md)
+3. [Ubuntu Installation using Source](redis/install_redis_in_ubuntu_from_source.md)
+4. [Mac OS Installtion using Source](redis/install_redis_in_mac_from_source.md)
+5. [Enable remote access](redis/redis_enable_remote_access.md)
+6. [Redis Client](redis/redis-client.md)
+7. [Troubleshoot](redis/troubleshoot.md)
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
@@ -73,12 +77,11 @@
 
 ### TLS
 1. [Generate Free TLS/SSL using Let's Encrypt](TLS/let's_encrypt.md)
-2. [Certbot](TLS/certbot.md)
-### Nginx
 
+### Nginx
 1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
 2. [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
-3. [Add SSL/TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
+3. [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
 
 ### Git
 1. [SSH Clone](git/ssh_git_clone.md)
