@@ -1,8 +1,5 @@
-# Installation Guide
+# [Installation Guide](https://m-thirumal.github.io/installation_guide/)
 
-### Build PgModeler from source code
-1. [Guide for Ubuntu](docs/pgmodeler/build_pgmodeler_from_source_ubuntu.md)
-2. [Guide for Mac](docs/pgmodeler/build_pgmodeler_from_source_mac.md)
 
 ### Install PostgreSQL
 1. [Install and Configure PostgreSQL](docs/PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
@@ -18,6 +15,12 @@
 3. [Management API](docs/JanusGraph/Management%20API.md)
 4. [Indexing](docs/JanusGraph/indexing.md)
 5. [Drop Graph/database](docs/JanusGraph/Management%20API.md)
+
+
+### Build PgModeler from source code
+1. [Guide for Ubuntu](docs/pgmodeler/build_pgmodeler_from_source_ubuntu.md)
+2. [Guide for Mac](docs/pgmodeler/build_pgmodeler_from_source_mac.md)
+
 
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](docs/pgadmin4/install_pgadmin4_using_apache2.md)
