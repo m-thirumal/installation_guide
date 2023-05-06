@@ -9,7 +9,7 @@ Check the status
 `sudo service redis status`
 
 If, it shows the following error message
-```
+```bash
 ubuntu@ip-172-31-18-107:~$ sudo service redis status
 ● redis-server.service - Advanced key-value store
      Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor >
@@ -26,7 +26,7 @@ ubuntu@ip-172-31-18-107:~$ sudo service redis status
 ```
 then shutdown from redis-cli
              
-```
+```bash
 redis-cli
 127.0.0.1:6379> shutdown
 (error) ERR Errors trying to SHUTDOWN. Check logs.
@@ -36,6 +36,6 @@ not connected>
 
 Start the redis server
 
-```
+```bash
 sudo service redis start
 ```

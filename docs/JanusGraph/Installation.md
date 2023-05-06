@@ -9,7 +9,7 @@
 
 * Download the JanusGraph and create new linux user 'janus' and unzip the download to `/opt` and give ownership to `janus` user
 
-```
+```bash
 cd /opt
 adduser janus
 chown -R janus:janus janusgraph-X.xx.x
@@ -20,7 +20,7 @@ chown -R janus:janus janusgraph-X.xx.x
 ### <u>Run :-</u>
 Edit `/opt/janusgraph-1.0.0-rc1/bin/janusgraph-server.sh` file, and set `gremlin-server/gremlin-server-cql.yaml` value to 
 
-```
+```bash
 useGremlinServerConfiguration(){
     if [[ -n "$1" ]] ; then
       setValidConfiguration "$1"
@@ -34,22 +34,22 @@ useGremlinServerConfiguration(){
 
 Then, to start
 
-```
+```bash
 ./janusgraph-server.sh start
 ```
 and to stop
-```
+```bash
 ./janusgraph-server.sh stop
 ```
 to restart
-```
+```bash
 ./janusgraph-server.sh restart
 ```
 
 
 ### Running JanusGraph inside a Docker container
 
-```
+```bash
 docker run -it -p 8182:8182 janusgraph/janusgraph
 ```
 

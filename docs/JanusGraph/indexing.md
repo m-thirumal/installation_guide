@@ -15,13 +15,13 @@ In the absence of an index, JanusGraph will default to a full graph scan in orde
 
 1. Add the following properties to `janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties`
 
-```
+```bash
 force-index=true
 ```
 
 2. Then, follow the janusgraph documentation
 
-```
+```bash
 graph.tx().rollback() //Never create new indexes while a transaction is active
 mgmt = graph.openManagement()
 name = mgmt.getPropertyKey('name')
@@ -41,7 +41,7 @@ mgmt.commit()
 
 3. To check/test, use `.profile()`
 
-```
+```bash
 gremlin> g.V().hasLabel('user').has('name','Thirumal').elementMap().profile()
 ==>Traversal Metrics
 Step                                                               Count  Traversers       Time (ms)    % Dur

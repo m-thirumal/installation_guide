@@ -11,7 +11,7 @@ Using management API, we can define the following,
 ### <u>Manage by Gremlin</u>
 Connect to gremlin and open session
 
-```
+```bash
  ./gremlin.sh 
 
 :remote connect tinkerpop.server conf/remote.yaml session
@@ -61,7 +61,7 @@ Existence of a label
 
 ## <u>Creating Vertex Label</u>
 
-```
+```bash
 mgmt.makeVertexLabel('user').make()
 mgmt.commit()
 ```
@@ -76,7 +76,7 @@ Allowed usages are
 * ONE2ONE 
 * SIMPLE
 
-```
+```bash
 mgmt.makeEdgeLabel('contains').multiplicity(SIMPLE).make()
 mgmt.commit()
 ```
@@ -89,14 +89,14 @@ Allowed cardinalities are
 * LIST
 * SET
 
-```
+```bash
 mgmt.makePropertyKey('name').dataType(String.class).cardinality(LIST).make()
 mgmt.commit()
 ```
 
 ###<u>Display the property keys along with their data types and cardinality settings</u>
 
-```
+```bash
 types = mgmt.getRelationTypes(PropertyKey.class)
 types.each{println "$it\t: " + mgmt.getPropertyKey("$it").dataType() + " " + mgmt.getPropertyKey("$it").cardinality()}
 ```
@@ -104,7 +104,7 @@ types.each{println "$it\t: " + mgmt.getPropertyKey("$it").dataType() + " " + mgm
 
 ### <u>Drop database</u>
 
-```
+```bash
 gremlin> graph = JanusGraphFactory.open('/opt/janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties')
 ==>standardjanusgraph[cql:[127.0.0.1]]
 gremlin> JanusGraphFactory.drop(graph);

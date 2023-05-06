@@ -2,7 +2,7 @@
 
 Change the follwoing line in `janusgraph-server.sh`
 
-```
+```bash
 useGremlinServerConfiguration(){
     if [[ -n "$1" ]] ; then
       setValidConfiguration "$1"
@@ -18,7 +18,7 @@ useGremlinServerConfiguration(){
 
 Switch to the `cassandra` user. And run `cqlsh` which is a Cassandra client. Note that you will need to install Python if it is not already installed.
 
-```
+```bash
 su cassandra
 /opt/apache-cassandra-X.xx.x/bin/cqlsh
 ```
@@ -26,7 +26,7 @@ su cassandra
 
 Get the list of keyspaces.
 
-```
+```bash
 ./cqlsh
 
 cqlsh> DESCRIBE KEYSPACES;
@@ -37,7 +37,7 @@ system_auth    janusgraph  system_traces
 
 You see that JanusGraph created a keyspace “janusgraph”. Let’s use this keyspace and get the list of tables under it.
 
-```
+```bash
 cqlsh> USE janusgraph;
 
 cqlsh:janusgraph> DESCRIBE TABLES;
@@ -49,13 +49,13 @@ edgestore        system_properties_lock_  system_properties
 
 The most important table is “edgestore”. This is where all the graph data (vertices, edges and properties) are stored. So let’s view this table data.
 
-```
+```bash
 cqlsh: janusgraph> SELECT * FROM edgestore;
 ```
 
 output:-
 
-```
+```bash
  key                | column1            | value
 --------------------+--------------------+----------------------------
  0x0000000000000c15 |               0x02 |                 0x00015480

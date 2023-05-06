@@ -33,7 +33,7 @@ The site [https://www.openproject.org/docs/installation-and-operations/installat
 
 * Then, reconfigure 
 
-```
+```bash
 sudo openproject reconfigure
 ```
 

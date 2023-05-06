@@ -2,34 +2,34 @@
 
 ### Instal PIP
 
-`
+```bash
 sudo apt install python3 python3-venv libaugeas0
-`
+```
 
 ### Set up a virtual environment:
 
-`
+```bash
 sudo python3 -m venv /opt/certbot/
 sudo /opt/certbot/bin/pip install --upgrade pip
-`
+```
 
 ### Install Certbot on Apache or NGINX:
 
-`
+```bash
 sudo /opt/certbot/bin/pip install certbot certbot-apache
-`
+```
 
 OR
 
-`
+```bash
 sudo /opt/certbot/bin/pip install certbot certbot-nginx
-`
+```
 
 ### Create a symlink to ensure Certbot runs:
 
-`
+```bash
 sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
-`
+```
 
 ## Create an SSL Certificate with Certbot
 
@@ -37,32 +37,32 @@ sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 
 For Apache
 
-`
+```bash
 sudo certbot --apache
-`
+```
 
 For Nginx
 
-`
+```bash
 sudo certbot --nginx
-`
+```
 
 ### Create SSL certs for a specified domain (recommended if you’re using your system hostname):
 
 
-`
+```bash
 sudo certbot --apache -d example.com -d www.example.com
-`
+```
 
 ### Only install SSL certs:
 
-`
+```bash
 sudo certbot certonly --apache
-`
+```
 
-`
+```bash
 sudo certbot certonly --nginx
-`
+```
 
 ## Troubleshooting
 

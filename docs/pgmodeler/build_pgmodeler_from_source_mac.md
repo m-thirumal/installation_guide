@@ -17,7 +17,7 @@ brew install qt libxml2 libpq
 
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
-```
+```bash
 macx {
   PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
   PGSQL_INC = /Applications/Postgres.app/Contents/Versions/latest/include

@@ -4,7 +4,7 @@
 * Edit the `IP address` in `conf/remote-objects.yaml` file
 * Run `bin/gremlin.sh`
 
-```
+```bash
 $ bin/gremlin.sh
 
         \,,,/
@@ -17,7 +17,7 @@ plugin activated: janusgraph.imports
 
 <u>To connect to remote server :-</u>
 
-```
+```bash
 gremlin> :remote connect tinkerpop.server conf/remote.yaml
 
 ##>Configured localhost/127.0.0.1:8182

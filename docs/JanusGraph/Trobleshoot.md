@@ -3,7 +3,7 @@
 
 Set the below property in `conf/janusgraph-cql.properties`
 
-```
+```bash
 graph.set-vertex-id=true
 ```
 

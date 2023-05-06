@@ -2,7 +2,7 @@
 
 #### Installing libraries (Dependencies)
 
-```
+```bash
  1.  sudo apt-get install build-essential
  2.  sudo apt-get install git
  3.  sudo apt-get install qtcreator
@@ -19,7 +19,7 @@
 
 or install all dependencies in one command line
 
-```
+```bash
 sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev
 ```
 
@@ -27,7 +27,7 @@ sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5
 
 Clone the PgModeler from github [https://github.com/pgmodeler/pgmodeler.git](https://github.com/pgmodeler/pgmodeler.git)
 
-```
+```bash
 git clone https://github.com/pgmodeler/pgmodeler.git
 cd pgmodeler
 ```
@@ -37,7 +37,7 @@ cd pgmodeler
 
 Once everything is prepared, you can compile and install pgmodeler using the following commands
 
-```
+```bash
 qmake pgmodeler.pro
 make
 sudo make install
@@ -48,7 +48,7 @@ The binary will be available in */usr/local/bin/*
 #### Open PgModeler
 Just type the below command in terminal
 
-```
+```bash
 pgmodeler
 ```
 
