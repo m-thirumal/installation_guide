@@ -14,7 +14,7 @@
     * [Fortigate](Fortigate/Setup.png)
 
 * Open Project
-    * [Installation and configuration](openProject/installation.md)
+    * [Open Project](openProject/installation.md)
 
 * DEVOPS
     * [DOCKER](docker/installtion_configuration.md)
