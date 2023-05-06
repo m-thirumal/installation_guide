@@ -14,10 +14,20 @@
     window.$docsify = {
       name: 'Installation Guide',
       repo: '',
-      loadSidebar: true
+      loadSidebar: true,
+      subMaxLevel: 2,
+      loadNavbar: true,
+      search: 'auto' // default
+      // plugins: [
+      //   EditOnGithubPlugin.create('https://github.com/m-thirumal/installation_guide/tree/master/docs', null, 'Installation guide')
+      // ]
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4">
+  </script>
+  <!-- Edit on Github plugin-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
