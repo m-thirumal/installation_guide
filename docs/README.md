@@ -62,10 +62,14 @@
 2. [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
 3. [Troubleshoot](jenkin/Troubleshoot.adoc)
 
-### Install Redis from source
-1. [Guide for Ubuntu](redis/install_redis_in_ubuntu_from_source.adoc)
-2. [Guide for Mac OS](redis/install_redis_in_mac_from_source.md)
-3. [Enable remote access](redis/redis_enable_remote_access.adoc)
+### Redis
+1. [Installation using apt](redis/install.md)
+2. [Installation using docker](redis/docker.md)
+3. [Ubuntu Installation using Source](redis/install_redis_in_ubuntu_from_source.md)
+4. [Mac OS Installtion using Source](redis/install_redis_in_mac_from_source.md)
+5. [Enable remote access](redis/redis_enable_remote_access.md)
+6. [Redis Client](redis/redis-client.md)
+7. [Troubleshoot](redis/troubleshoot.md)
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
