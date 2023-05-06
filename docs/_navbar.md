@@ -1,36 +1,36 @@
 * DATABASE
-    * [PostgreSQL](PostgreSQL)
-    * [Cassandra](Cassandra)
-    * [Janus Graph database](JanusGraph)
-    * [Redis](redis)
+    * [PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+    * [Cassandra](Cassandra/Installation.md)
+    * [Janus Graph database](JanusGraph/Installation.md)
+    * [Redis](redis/install.md)
 
 * DATABASE TOOLS
-    * [PgModeler](pgmodeler)
-    * [PgAdmin4](pgadmin4)
+    * [PgModeler](pgmodeler/build_pgmodeler_from_source_mac.md)
+    * [PgAdmin4](pgadmin4/install_pgadmin4_using_docker.md)
 
 * VPN 
-    * [VMware ESXi](VMware%20ESXi)
-    * [FortiClient](Forticlient)
-    * [Fortigate](Fortigate)
+    * [VMware ESXi](VMware%20ESXi/Start%20VM's%20automatically%20during%20the%20boot.md)
+    * [FortiClient](Forticlient/Install_FortiClient_Ubuntu.md)
+    * [Fortigate](Fortigate/Setup.png)
 
 * Open Project
     * [Installation and configuration](openProject/installation.md)
 
 * DEVOPS
-    * [DOCKER](docker)
-    * [Jenkins](jenkin)
-    * [Nginx](Nginx)
-    * [Git](git)
-    * [Maven](maven)
-    * [Let's Encrypt - SSL/TLS](TLS)
+    * [DOCKER](docker/installtion_configuration.md)
+    * [Jenkins](jenkin/installation.adoc)
+    * [Nginx](Nginx/installation_in_Ubuntu.md)
+    * [Git](git/commands.md)
+    * [Maven](maven/upgrade_maven.md)
+    * [Let's Encrypt - SSL/TLS](TLS/let's_encrypt.md)
 
 * Programming Language
-    * [Java](Java)
-    * [Python](python)
-    * [Spring boot](spring-boot-jar)
+    * [Java](Java/Installation.md)
+    * [Python](python/installation.md)
+    * [Spring boot](spring-boot-jar/Create%20linux%20process.md)
 
 * AWS
-    * [Host static website using S3](aws/host_static_website_using_s*md)
+    * [Host static website using S3](aws/host_static_website_using_s3.md)
     * [Add TLS for AWS S3 hosted static website using Let's Encrypt](aws/tls/create_cloud_front.md)
     * [S3](aws/S3)
     * [Commands](aws/S3/commands.md)
