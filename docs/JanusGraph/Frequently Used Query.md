@@ -1,6 +1,6 @@
 # Frequently used Queries
 
-1. Update dates
+1. Update date using `AWS graph notebook`
 
 ```java
 %%gremlin -p v,e
