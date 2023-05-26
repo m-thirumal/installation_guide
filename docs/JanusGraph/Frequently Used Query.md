@@ -2,7 +2,7 @@
 
 1. Update dates
 
-```
+```java
 %%gremlin -p v,e
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -12,4 +12,12 @@ Date currentDate = Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).
 // Creating a new Date object with a specific date and time
 LocalDateTime customDateTime = LocalDateTime.of(2023, 5, 29, 10, 30, 0);
 g.V(49360).property("end_time", Date.from(customDateTime.atZone(ZoneId.systemDefault()).toInstant()))
+```
+
+2. Convert Gremlin DSL/bytecode to groovy query
+
+```java
+GroovyTranslator.of("g").
+		translate(g.poll(pollId).rootQuestions(Order.asc, votedQuestion.getStartTime())
+							 .limit(1).id().asAdmin().getBytecode())
 ```
