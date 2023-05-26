@@ -12,6 +12,8 @@
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
    * [Drop Graph/database](JanusGraph/Management%20API.md)
+   * [Visualization Tool](JanusGraph/Visualization%20Tool.md)
+   * [Frequently Used Queries](JanusGraph/Frequently%20Used%20Query.md)
 
 * Install PgAdmin4
    * [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache*md)
