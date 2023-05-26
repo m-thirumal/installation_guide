@@ -18,6 +18,5 @@ g.V(49360).property("end_time", Date.from(customDateTime.atZone(ZoneId.systemDef
 
 ```java
 GroovyTranslator.of("g").
-		translate(g.poll(pollId).rootQuestions(Order.asc, votedQuestion.getStartTime())
-							 .limit(1).id().asAdmin().getBytecode())
+	translate(g.company(companyId).manager().asAdmin().getBytecode())
 ```
