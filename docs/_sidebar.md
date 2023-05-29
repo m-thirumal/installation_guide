@@ -11,6 +11,7 @@
    * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
+   * [Schema & Index](docs/JanusGraph/Schema%20Index.md)
    * [Drop Graph/database](JanusGraph/Management%20API.md)
    * [Visualization Tool](JanusGraph/Visualization%20Tool.md)
    * [Frequently Used Queries](JanusGraph/Frequently%20Used%20Query.md)
