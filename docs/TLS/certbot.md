@@ -35,6 +35,8 @@ sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 
 ### Create SSL certs for all domains and configure redirects in the web server:
 
+!> This will modify `/etc/nginx/sites-enabled/default` file for SSL. No manual chage is requrired
+
 For Apache
 
 ```bash
@@ -55,6 +57,8 @@ sudo certbot --apache -d example.com -d www.example.com
 ```
 
 ### Only install SSL certs:
+
+?> TODO Manually change `/etc/nginx/sites-enabled/default` file for SSL
 
 ```bash
 sudo certbot certonly --apache
