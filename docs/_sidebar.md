@@ -8,6 +8,8 @@
 * Janus Graph database
 
    * [Install and configuration of database](JanusGraph/Installation.md)
+   * [Run Janus on different Port](JanusGraph/Run%20Janus%20on%20different%20Port.md)
+   * [Change Cassandra keystore](JanusGraph/Change%20Keystore.md)
    * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
