@@ -1,6 +1,6 @@
 # [Installation Guide](https://m-thirumal.github.io/installation_guide/)
 
-Use this link [Installation Document]https://m-thirumal.github.io/installation_guide/)
+Use this link [Installation Document](https://m-thirumal.github.io/installation_guide/) for tutorial, it has better look.
 
 ### Install PostgreSQL
 1. [Install and Configure PostgreSQL](docs/PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
