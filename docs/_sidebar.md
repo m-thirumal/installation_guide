@@ -62,9 +62,9 @@
    * [Installation](python/virtualevn.adoc)
 
 * Jenkins
-   * [Install Jenkin](jenkin/installation.adoc)
-   * [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
-   * [Troubleshoot](jenkin/Troubleshoot.adoc)
+   * [Install Jenkin](jenkin/installation.md)
+   * [Intall jenkin on docker](jenkin/jenkin_on_docker.md)
+   * [Troubleshoot](jenkin/Troubleshoot.md)
 
 * Redis
    * [Installation using apt](redis/install.md)
