@@ -105,7 +105,7 @@ types.each{println "$it\t: " + mgmt.getPropertyKey("$it").dataType() + " " + mgm
 ### <u>Drop database</u>
 
 ```bash
-gremlin> graph = JanusGraphFactory.open('/opt/janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties')
+gremlin> graph = JanusGraphFactory.open('/opt/janusgraph-1.0.0-rc2/conf/janusgraph-cql.properties')
 ==>standardjanusgraph[cql:[127.0.0.1]]
 gremlin> JanusGraphFactory.drop(graph);
 ```
