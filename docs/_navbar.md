@@ -24,7 +24,7 @@
     * [Git](git/commands.md)
     * [Maven](maven/upgrade_maven.md)
     * [Let's Encrypt - SSL/TLS](TLS/let's_encrypt.md)
-    *[Certbot](TLS/certbot.md)
+    * [Certbot](TLS/certbot.md)
 
 * Programming Language
     * [Java](Java/Installation.md)
