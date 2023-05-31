@@ -8,6 +8,7 @@
 * Janus Graph database
 
    * [Install and configuration of database](JanusGraph/Installation.md)
+   * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)
    * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
