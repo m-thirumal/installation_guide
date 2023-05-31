@@ -1,21 +1,19 @@
-= Installing Jenkins on Ubuntu
+# Installing Jenkins on Ubuntu
 
 Use the following commands to install jenkins
 
-[source, shel]
-----
+```bash
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key |sudo gpg --dearmor -o /usr/share/keyrings/jenkins.gpg
 sudo sh -c 'echo deb [signed-by=/usr/share/keyrings/jenkins.gpg] http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
 sudo apt install jenkins
-----
+```
 
 
 
 To get admin password, enter the following commands
 
-[source, shell]
-----
+```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-----
+```
 
 

@@ -9,6 +9,8 @@
 
    * [Install and configuration of database](JanusGraph/Installation.md)
    * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)
+   * [Run Janus on different Port](JanusGraph/Run%20Janus%20on%20different%20Port.md)
+   * [Change Cassandra keystore](JanusGraph/Change%20Keystore.md)
    * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
@@ -61,9 +63,9 @@
    * [Installation](python/virtualevn.adoc)
 
 * Jenkins
-   * [Install Jenkin](jenkin/installation.adoc)
-   * [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
-   * [Troubleshoot](jenkin/Troubleshoot.adoc)
+   * [Install Jenkin](jenkin/installation.md)
+   * [Intall jenkin on docker](jenkin/jenkin_on_docker.md)
+   * [Troubleshoot](jenkin/Troubleshoot.md)
 
 * Redis
    * [Installation using apt](redis/install.md)
@@ -90,6 +92,7 @@
    * [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
    * [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
    * [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
+   * [Re-Write Path & forward](Nginx/rewrite%20Path.md)
 
 * Git
    * [SSH Clone](git/ssh_git_clone.md)
