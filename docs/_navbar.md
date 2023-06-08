@@ -19,7 +19,7 @@
 
 * DEVOPS
     * [DOCKER](docker/installtion_configuration.md)
-    * [Jenkins](jenkin/installation.adoc)
+    * [Jenkins](jenkin/installation.md)
     * [Nginx](Nginx/installation_in_Ubuntu.md)
     * [Git](git/commands.md)
     * [Maven](maven/upgrade_maven.md)
