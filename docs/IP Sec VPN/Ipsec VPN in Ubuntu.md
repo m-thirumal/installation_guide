@@ -2,9 +2,11 @@
 
 #### Install
 
-    sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp
-    sudo apt update
-    sudo apt-get install network-manager-l2tp  network-manager-l2tp-gnome
+```bash
+sudo add-apt-repository ppa:nm-l2tp/network-manager-l2tp
+sudo apt update
+sudo apt-get install network-manager-l2tp  network-manager-l2tp-gnome
+```
 
 ### configure
 
