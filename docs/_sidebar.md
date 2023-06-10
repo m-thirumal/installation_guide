@@ -49,11 +49,11 @@
 
 * FortiClient VPN
    * [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
-   * [IPsec VPN in Ubuntu](Forticlient/IPsec%20VPN%20in%20Ubuntu.md)
+  
 
 * IPSec VPN
-
-   * [IPSec VPN Connection in MAC without Client](IP%20Sec%20VPN/VPN%20Connection%20without%20any%20client%20in%20MAC.md)
+   * [IPsec VPN in Ubuntu](IP%20Sec%20VPN/Ipsec%20VPN%20in%20Ubuntu.md)
+   * [IPSec VPN in MAC](IP%20Sec%20VPN/VPN%20Connection%20without%20any%20client%20in%20MAC.md)
 
 * Fortigate
    * [IPsec Setup for Linux/Ubuntu](Fortigate/IPsec%20for%20Ubuntu.md)
