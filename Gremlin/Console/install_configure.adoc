@@ -1,0 +1,16 @@
+== Dependency
+
+* Java 11
+
+== Configure
+
+* Go to bin and run `./gremlin.sh`
+
+=== Connect to remote server
+
+[source, shell]
+----
+:remote connect tinkerpop.server conf/remote.yaml
+:remote console
+----
+

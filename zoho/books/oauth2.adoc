@@ -1,0 +1,16 @@
+== Generate OAuth2 token for zoho applications
+
+1. Create an account in Zoho
+
+2. Create an application in https://accounts.zoho.com/developerconsole  and generate client id and client secret
+
+3. Generate Grant token in the browser by authentication and accept the T&C. Collect the code to generate access & refresh tokens
+  
+    a. Make sure `redirect url` is same in developer console
+    b. Code is valid for only 60 second
+
+`https://accounts.zoho.com/oauth/v2/auth?scope=ZohoBooks.fullaccess.all&client_id=XXXX&state=testing&response_type=code&redirect_uri=https://abc.com&access_type=offline`
+
+4. Use the code to generate an access token and refresh token. Make sure it’s in the right data center .in, .eu…
+
+`https://accounts.zoho.in/oauth/v2/token?code=YYYY&client_id=XXX&client_secret=ZZZZ&redirect_uri=https://abc.com&grant_type=authorization_code`

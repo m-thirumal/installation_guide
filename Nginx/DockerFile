@@ -1,0 +1,9 @@
+# Author        : Thirumal
+# Created on    : 19/02/2022
+# Last Modified : 19/02/2022
+FROM nginx
+# Copy Configuration
+COPY ./nginx.conf /etc/nginx/nginx.conf
+# Copy static-html-directory
+COPY dist /usr/share/nginx/html
+
