@@ -13,13 +13,15 @@
     * [VMware ESXi](VMware%20ESXi/Start%20VM's%20automatically%20during%20the%20boot.md)
     * [FortiClient](Forticlient/Install_FortiClient_Ubuntu.md)
     * [Fortigate](Fortigate/Setup.png)
+    * [IPSec in MAC](IP%20Sec%20VPN/VPN%20Connection%20without%20any%20client%20in%20MAC.md)
+    * [IPsec VPN in Ubuntu](IP%20Sec%20VPN/Ipsec%20VPN%20in%20Ubuntu.md)
 
 * Open Project
     * [Open Project](openProject/installation.md)
 
 * DEVOPS
     * [DOCKER](docker/installtion_configuration.md)
-    * [Jenkins](jenkin/installation.adoc)
+    * [Jenkins](jenkin/installation.md)
     * [Nginx](Nginx/installation_in_Ubuntu.md)
     * [Git](git/commands.md)
     * [Maven](maven/upgrade_maven.md)

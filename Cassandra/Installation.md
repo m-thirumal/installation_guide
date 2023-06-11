@@ -4,8 +4,8 @@
 
 ```bash
 cd /opt
-wget http://archive.apache.org/dist/cassandra/X.xx.x/apache-cassandra-3.11.0-bin.tar.gz
-tar -xf apache-cassandra-3.11.0-bin.tar.gz
+wget https://dlcdn.apache.org/cassandra/4.1.2/apache-cassandra-4.1.2-bin.tar.gz
+tar -xf apache-cassandra-4.1.2-bin.tar.gz
 ```
 
 * Create new linux user `cassandra` and give ownership to `cassandra` user 
