@@ -2,18 +2,20 @@
 
 ### Clone
 
-    git clone https://github.com/pgmodeler/pgmodeler.git
-    cd pgmodeler
+```bash
+git clone https://github.com/pgmodeler/pgmodeler.git
+cd pgmodeler
+```
 
-### Build
+### Prerequisites
 
-1. Install PostgreSQL
-2. Install Xcode
-3. Install libxml2, qt & libpq
+1. Install `PostgreSQL`
+2. Install `Xcode`
+3. Install `libxml2`, `qt` & `libpq`
 
-`
+```bash
 brew install qt libxml2 libpq
-`
+```
 
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
@@ -26,6 +28,12 @@ macx {
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
 }
 ```
+then, run the below command to build
+
+```bash
+/usr/local/opt/qt/bin/qmake -r pgmodeler.pro
+```
+
 ### For M1, M2... Chip
 ```
 macx {
@@ -36,21 +44,19 @@ macx {
   INCLUDEPATH += "$$PGSQL_INC" "$$XML_INC"
 }
 ```
-
 then, run the below command to build
 
+```bash
+/opt/homebrew/opt/qt6/bin/qmake -r pgmodeler.pro
+```
 
-    /usr/local/opt/qt/bin/qmake -r pgmodeler.pro
-
-### For M1, M2 Chip
-
-    /opt/homebrew/opt/qt6/bin/qmake -r pgmodeler.pro
-
-#### Install
+### Install
 
 Run the below command to install pgModeler in `/Application`
 
-    make && make install
+```bash
+sudo make && make install
+```
 
 Go to application and select pgmodeler
 
