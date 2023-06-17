@@ -98,6 +98,7 @@
    * [Foward request to another domain/port](Nginx/Forward%20request%20to%20another%20domain%20or%20port.md)
    * [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
    * [Re-Write Path & forward](Nginx/rewrite%20Path.md)
+   * [Security Tips](Nginx/Security_tips.md)
 
 * Git
    * [SSH Clone](git/ssh_git_clone.md)
