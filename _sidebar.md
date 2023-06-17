@@ -99,6 +99,7 @@
    * [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
    * [Re-Write Path & forward](Nginx/rewrite%20Path.md)
    * [Security Tips](Nginx/Security_tips.md)
+   * [Uninstall](Nginx/Uninstall.md)
 
 * Git
    * [SSH Clone](git/ssh_git_clone.md)

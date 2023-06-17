@@ -8,7 +8,7 @@
 
 Add the following detail in the `http` block
 
-```
+```bash
 http {
 
     # To avoid exposing Nginx server details
@@ -20,13 +20,13 @@ http {
 ### Add Security HTTP Headers to Prevent Vulnerabilities
 Add `add_header` in `http` tag
 
-```
+```bash
 http {
     # To avoid exposing Nginx server details
     server_tokens off;
     add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload";
     add_header X-Frame-Options "SAMEORIGIN";
-    add_header Content-Security-Policy "default-src 'self' http://www.google.com https://api.razorpay.com https://api.enkindletech.com https://enkindle-production-public.s3.ap-south-2.amazonaws.com https://s3.ap-south-2.amazonaws.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://www.google.com https://www.gstatic.com https://checkout.razorpay.com https://api.razorpay.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:";
+    add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' style-src 'self' 'unsafe-inline'; img-src 'self' data:";
     add_header X-XSS-Protection "1; mode=block";
     add_header X-Content-Type-Options "nosniff";
     add_header "X-Permitted-Cross-Domain-Policies" "master-only";
@@ -38,7 +38,7 @@ http {
 
 ###### X-Permitted-Cross-Domain-Policies
 
-```
+```bash
 Value	Description
 none	No policy files are allowed anywhere on the target server, including this master policy file.
 master-only	Only this master policy file is allowed.
@@ -51,6 +51,6 @@ Implementation:-
 
 Nginx:
 
-```
+```bash
 add_header X-Permitted-Cross-Domain-Policies master-only;
 ```
