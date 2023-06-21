@@ -54,3 +54,16 @@ Nginx:
 ```bash
 add_header X-Permitted-Cross-Domain-Policies master-only;
 ```
+
+### Remove Server header 
+
+Install the following dependencies,
+
+```bash
+sudo apt-get install nginx-extras 
+```
+add add the following line, in `http` block
+```bash
+more_clear_headers 'Server'; 
+```
+
