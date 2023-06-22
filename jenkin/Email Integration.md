@@ -1,6 +1,13 @@
 # Email Integration with Jenkins
 
+### Configure Email service in Jenkins
+
+Go to `Manage Jenkins` -> `System` -> `` then, add the mail credentails
+
+
+
 #### Goal
+
 On `post build`, send mail to author/developer/testing team.
 
 #### Steps for pipeline

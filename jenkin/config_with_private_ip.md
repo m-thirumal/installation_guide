@@ -18,7 +18,7 @@ echo "Refreshing Nginx"
 ssh -i /var/lib/jenkins/PRODUCTION.pem ubuntu@xx.xx.xxx.xx "sudo systemctl reload nginx"
 ```
 
-!>  Note : Add remote server to known server
+!>  Note : Add `remote server` to `ssh known server`
 
 3. Login to `Jenkins` server and then connect to `remote server` either using `pem` or `password` to add it to `ssh known server`
 
