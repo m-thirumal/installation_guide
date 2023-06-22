@@ -68,7 +68,8 @@
 
 * Jenkins
    * [Install Jenkin](jenkin/installation.md)
-   * [Intall jenkin on docker](jenkin/jenkin_on_docker.md)
+   * [Config with Private IP](jenkin/config_with_private_ip.md)
+   * [Install jenkin on docker](jenkin/jenkin_on_docker.md)
    * [Troubleshoot](jenkin/Troubleshoot.md)
 
 * Redis
