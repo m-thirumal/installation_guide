@@ -4,7 +4,29 @@
 
 Go to `Manage Jenkins` -> `System` -> `` then, add the mail credentails
 
+##### On `Extended E-mail Notification` give the following details
 
+!> If you are using gmail, add `APP` password
+
+The below details are for gmail
+
+```bash
+SMTP server : smtp.gmail.com
+SMTP Port   : 465
+Use SSL     : true
+Default Content Type : html
+```
+##### On `E-mail Notification `:
+
+```bash
+SMTP server             : smtp.gmail.com
+Use SMTP Authentication : true
+User Name               : 
+Password (App password) :
+Use SSL                 : true
+SMTP Port               : 465
+Charset                 : UTF-8
+```
 
 #### Goal
 
