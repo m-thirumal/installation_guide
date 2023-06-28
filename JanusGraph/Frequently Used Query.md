@@ -30,5 +30,5 @@ g.V(49360).property("end_time", Date.from(customDateTime.atZone(ZoneId.systemDef
 
 ```java
 GroovyTranslator.of("g").
-	translate(g.company(companyId).manager().asAdmin().getBytecode())
+	translate(g.company(companyId).manager()).asAdmin().getBytecode())
 ```
