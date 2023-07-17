@@ -93,6 +93,7 @@
 * TLS
    * [Generate Free TLS/SSL using Let's Encrypt](TLS/let's_encrypt.md)
    * [Certbot](TLS/certbot.md)
+   * [Troublehoot](TLS/Troubleshoot.md)
    
 * Nginx
    * [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
