@@ -2,17 +2,16 @@
 
 ### Installing Nginx
 
-    sudo apt update
-    sudo apt install nginx
-    
+```bash
+sudo apt update
+sudo apt install nginx
+```   
 
 Go to browser and enter [http://localhost](http://localhost)
 
-    
-![http://localhost](Default.png)   
 
-### [Host your website](Host_Website_Using_Nginx.md)
+### To Test configuration verification
 
-### [Set up Virtual host](Set_Up_Virtual_Host.md)
-
-### [Reverse Proxying](../pgadmin4/Reverse_Proxying_with_ngnix.md)
+```bash
+sudo nginx -t
+```
