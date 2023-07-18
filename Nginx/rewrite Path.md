@@ -36,3 +36,13 @@ Here are a few examples of how the rewriting and forwarding would work:
 Make sure to replace example.com with your own domain, `/prefix/` with the desired prefix path, and http://other-domain.com with the target domain you want to forward the request to.
 
 After making the changes, save the configuration file and reload or restart NGINX for the modifications to take effect.
+
+## Redirect to different page
+
+```bash
+error_page 404 403 /index.html;
+location = /index.html {
+root /var/www/html;
+internal;
+}
+```
