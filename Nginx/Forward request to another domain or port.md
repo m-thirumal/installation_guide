@@ -12,6 +12,8 @@ location / {
             proxy_pass http://127.0.0.1:9095; # Forward to another Domain/PORT
             proxy_http_version 1.1;
             proxy_set_header Host $host; # Preserve Actual Header
+            proxy_set_header X-Real-IP $remote_addr; # Preserve Actual client Ip
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             client_max_body_size 1025M; # Maximum size of files that they can upload
     }
 ```
