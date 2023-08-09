@@ -27,7 +27,7 @@
 * Build PgModeler from source code
    * [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
    * [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
-
+   * [Guide to Model](pgmodeler/Usage%20Guide.md)
 
 * Open Project
 
