@@ -116,3 +116,9 @@
 ```
 
 ![](img/exclude.png)
+
+### Execute Diff
+
+On `Import & Export` -> check `Import System Objects` & `Import extension objects`
+
+![](img/Diff.png)
