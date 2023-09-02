@@ -1,6 +1,9 @@
 # Exclusion Constraints in Pgmodeler..
 
-1. Create dummy function and operator
+1. Create Extension
+2. Create dummy function 
+3. Create dummy operator
+4. Add constraint to table
 
 ### Create Dummy Function:
 

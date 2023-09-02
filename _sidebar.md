@@ -28,6 +28,7 @@
    * [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
    * [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
    * [Guide to Model](pgmodeler/Usage%20Guide.md)
+   * [Exclusion Constraints](pgmodeler/Exclusion%20Constraints.md)
 
 * Open Project
 
