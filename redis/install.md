@@ -33,3 +33,35 @@ $ sudo make install
 ```bash
 redis-server
 ```
+
+
+### To Set password
+
+Open config file
+
+```bash
+sudo nano /etc/redis/redis.conf
+```
+ 
+and uncomment the following line with password
+
+```bash
+# requirepass foobared
+```
+
+Example
+
+```bash
+requirepass Thirumal
+```
+
+##### To connect redis using cli
+
+```bash
+redis-cli
+
+auth thirumal
+
+ping
+
+```
