@@ -44,3 +44,7 @@ sudo openproject reconfigure
     * Enter the `/etc/letsencrypt/live/openproject.mydomain.com/fullchain.pem` path (same as `server/ssl_cert`) when asked for the `server/ssl_ca` detail.
 
 ### Email
+
+
+### Troubleshoot
+   1. To check database configuration - `vi /etc/openproject/conf.d/00_addon_postgres`
