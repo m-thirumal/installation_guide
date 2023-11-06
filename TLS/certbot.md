@@ -68,6 +68,20 @@ sudo certbot certonly --apache
 sudo certbot certonly --nginx
 ```
 
+### Renew
+
+```bash
+sudo certbot renew
+```
+
+##### Force renew
+
+```bash
+sudo certbot --force-renewal
+
+sudo certbot certonly --force-renewal
+```
+
 ## Troubleshooting
 
 
