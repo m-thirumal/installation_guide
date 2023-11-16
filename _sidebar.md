@@ -15,7 +15,7 @@
    * [Management API](JanusGraph/Management%20API.md)
    * [Indexing](JanusGraph/indexing.md)
    * [Schema & Index](JanusGraph/Schema%20Index.md)
-   * [Drop Graph/database](JanusGraph/Management%20API.md)
+   * [Drop Graph database](JanusGraph/Drop%20Database.md)
    * [Visualization Tool](JanusGraph/Visualization%20Tool.md)
    * [Frequently Used Queries](JanusGraph/Frequently%20Used%20Query.md)
 
