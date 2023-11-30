@@ -13,7 +13,7 @@ In the absence of an index, JanusGraph will default to a full graph scan in orde
 
 ### <u>Procedure</u>
 
-1. Add the following properties to `janusgraph-1.0.0-rc1/conf/janusgraph-cql.properties`
+1. Add the following properties to `janusgraph-1.0.0/conf/janusgraph-cql.properties`
 
 ```bash
 force-index=true
