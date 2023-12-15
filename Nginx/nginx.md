@@ -19,3 +19,5 @@
 10. [Uninstall NGINX completely from Ubuntu](./Uninstall.md)
 
 11. [To access website log](./log.md)
+
+12. [Add Godaddy SSL certificate](./Generate%20and%20install%20godaddy%20ssl%20certificate.md)
