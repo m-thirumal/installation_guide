@@ -23,7 +23,7 @@
 * DEVOPS
     * [DOCKER](docker/installtion_configuration.md)
     * [Jenkins](jenkin/installation.md)
-    * [Nginx](Nginx/installation_in_Ubuntu.md)
+    * [Nginx](Nginx/nginx.md)
     * [Git](git/commands.md)
     * [Maven](maven/upgrade_maven.md)
     * [Let's Encrypt - SSL/TLS](TLS/let's_encrypt.md)

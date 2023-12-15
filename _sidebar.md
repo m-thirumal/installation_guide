@@ -99,7 +99,7 @@
    * [Certbot](TLS/certbot.md)
    * [Troublehoot](TLS/Troubleshoot.md)
    
-* Nginx
+* [Nginx](Nginx/nginx.md)
    * [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
    * [Host Multiple Website](Nginx/multiple_website.md)
    * [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
