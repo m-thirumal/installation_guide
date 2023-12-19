@@ -33,6 +33,7 @@
 * Open Project
 
    * [Installation and configuration](openProject/installation.md)
+   * [Troubleshoot](openProject/troubleshoot.md)
 
 * VMware ESXi
 

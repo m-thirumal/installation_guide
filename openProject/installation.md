@@ -52,10 +52,5 @@ sudo openproject reconfigure
 ### Email
 
 
-### Troubleshoot
-   1. To check database configuration - `vi /etc/openproject/conf.d/00_addon_postgres`
-
-##### Trouble during update
-   1. Reconfigure the `openproject`
-         ```sudo openproject reconfigure```
+### [Troubleshoot](openProject/troubleshoot.md)
 
