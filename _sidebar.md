@@ -84,13 +84,19 @@
    * [Troubleshoot](jenkin/Troubleshoot.md)
 
 * Redis
-   * [Installation using apt](redis/install.md)
-   * [Installation using docker](redis/docker.md)
-   * [Ubuntu Installation using Source](redis/install_redis_in_ubuntu_from_source.md)
-   * [Mac OS Installtion using Source](redis/install_redis_in_mac_from_source.md)
-   * [Enable remote access](redis/redis_enable_remote_access.md)
-   * [Redis Client](redis/redis-client.md)
+   * [Install](redis/install.md)
+      * [Install from Source on ubuntu - Shell file](redis/install_redis_from_source_ubuntu.sh)
+      * [Install from source on Mac](redis/install_redis_in_mac_from_source.md)
+      * Docker
+          `docker pull redis`
+    
+   * [Redis Clients](redis/redis-client.md)
+
+   * [Enable Remote Access](redis/redis_enable_remote_access.md)
+
    * [Troubleshoot](redis/troubleshoot.md)
+
+   * [Redis Server shell file](redis/redis-server)
 
 * AWS - Website hosting
    * [Host static website using S3](aws/host_static_website_using_s*md)
