@@ -7,7 +7,12 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 2. [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
 
 ### Install PostgreSQL
-1. [Install and Configure PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+
+   * [Install PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+
+   * [UnInstall](PostgreSQL/UnInstall%20PostgreSQL.md)
+
+   * [WAL Archive & PITR](PostgreSQL/WAL%20Archive%20&%20PITR.md)
 
 ### Cassandra
 
@@ -65,13 +70,23 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 3. [Troubleshoot](jenkin/Troubleshoot.adoc)
 
 ### Redis
-1. [Installation using apt](redis/install.md)
-2. [Installation using docker](redis/docker.md)
-3. [Ubuntu Installation using Source](redis/install_redis_in_ubuntu_from_source.md)
-4. [Mac OS Installtion using Source](redis/install_redis_in_mac_from_source.md)
-5. [Enable remote access](redis/redis_enable_remote_access.md)
-6. [Redis Client](redis/redis-client.md)
-7. [Troubleshoot](redis/troubleshoot.md)
+
+   * [Install](redis/install.md)
+
+      * [Install from Source on ubuntu - Shell file](redis/install_redis_from_source_ubuntu.sh)
+      * [Install from source on Mac](redis/install_redis_in_mac_from_source.md)
+      * Docker
+         `docker pull redis`
+    
+   * [Redis Clients](redis/redis-client.md)
+
+   * [Enable Remote Access](redis/redis_enable_remote_access.md)
+
+   * [Troubleshoot](redis/troubleshoot.md)
+
+   * [Uninstall](redis/Uninstall.md)
+
+   * [Redis Server shell file](redis/redis-server)
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
