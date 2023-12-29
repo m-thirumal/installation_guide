@@ -1,5 +1,5 @@
 * DATABASE
-    * [PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+    * [PostgreSQL](PostgreSQL/postgresql.md)
     * [Cassandra](Cassandra/Installation.md)
     * [Janus Graph database](JanusGraph/Installation.md)
     * [Redis](redis/install.md)
