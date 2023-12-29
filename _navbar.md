@@ -2,7 +2,7 @@
     * [PostgreSQL](PostgreSQL/postgresql.md)
     * [Cassandra](Cassandra/Installation.md)
     * [Janus Graph database](JanusGraph/Installation.md)
-    * [Redis](redis/install.md)
+    * [Redis](redis/redis.md)
 
 * DATABASE TOOLS
     * [PgModeler](pgmodeler/build_pgmodeler_from_source_mac.md)

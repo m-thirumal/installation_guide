@@ -13,4 +13,6 @@
 
 * [Troubleshoot](redis/troubleshoot.md)
 
+* [Uninstall](redis/Uninstall.md)
+
 * [Redis Server shell file](redis/redis-server)

@@ -98,6 +98,8 @@
 
    * [Redis Server shell file](redis/redis-server)
 
+   * [Uninstall](redis/Uninstall.md)
+
 * AWS - Website hosting
    * [Host static website using S3](aws/host_static_website_using_s*md)
    * [Add TLS for AWS S3 hosted static website using Let's Encrypt](aws/tls/create_cloud_front.md)
