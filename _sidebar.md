@@ -9,8 +9,9 @@
 * Cassandra
 
    * [Cassandra Installation](Cassandra/Installation.md)
+   * [Configuration](Cassandra/configuration.md)
 
-* Janus Graph database
+* JanusGraph
 
    * [Install and configuration of database](JanusGraph/Installation.md)
    * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)

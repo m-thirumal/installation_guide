@@ -1,7 +1,7 @@
 * DATABASE
     * [PostgreSQL](PostgreSQL/postgresql.md)
     * [Cassandra](Cassandra/Installation.md)
-    * [Janus Graph database](JanusGraph/Installation.md)
+    * [JanusGraph](JanusGraph/Installation.md)
     * [Redis](redis/redis.md)
 
 * DATABASE TOOLS
