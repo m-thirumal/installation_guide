@@ -11,7 +11,7 @@ Janus Graph configuration
 ```groovy
 %%graph_notebook_config
 {
-  "host": "18.60.81.65",
+  "host": "localhost",
   "port": 8182,
   "ssl": false,
   "gremlin": {
