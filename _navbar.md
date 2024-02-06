@@ -28,6 +28,7 @@
     * [Maven](maven/upgrade_maven.md)
     * [Let's Encrypt - SSL/TLS](TLS/let's_encrypt.md)
     * [Certbot](TLS/certbot.md)
+    * [VisualVm](visualVm/visualvm_remote_set_up.md)
 
 * Programming Language
     * [Java](Java/Installation.md)
@@ -44,5 +45,5 @@
 
 * [Wordpress](wordpress/wordpress.md)
 
-   * [Installation](wordpress/wordpress.md)
+   * [Installation](wordpress/installation.md)
    * [Export/Import](/wordpress/export_import.md)

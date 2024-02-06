@@ -136,5 +136,7 @@
 
 * [Wordpress](wordpress/wordpress.md)
 
-   * [Installation](wordpress/wordpress.md)
+   * [Installation](wordpress/installation.md)
    * [Export/Import](/wordpress/export_import.md)
+
+* [VisualVm](visualVm/visualvm_remote_set_up.md)
