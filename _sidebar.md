@@ -133,3 +133,7 @@
    * [Create JAR](spring-boot-jar/create_jar.md)
 * Maven
    * [Upgrade Maven](maven/upgrade_maven.md)
+
+* [Wordpress](wordpress/wordpress.md)
+
+   * [Installation](wordpress/wordpress.md)
