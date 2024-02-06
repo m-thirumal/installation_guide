@@ -12,6 +12,8 @@
 <body>
   <div id="app"></div>
   <script>
+    var htmlUrl = "https://m-thirumal.github.io/installation_guide/"
+    var title = "One stop software development installation & configuration guide book"
     window.$docsify = {
       name: 'Installation Guide',
       repo: 'https://github.com/m-thirumal/installation_guide',
@@ -19,10 +21,36 @@
       subMaxLevel: 2,
       loadNavbar: true,
       search: 'auto', // default
-      auto2top: true
+      auto2top: true,
       // plugins: [
       //   EditOnGithubPlugin.create('https://github.com/m-thirumal/installation_guide/tree/master/docs', null, 'Installation guide')
       // ]
+      share: {
+            reddit: {
+                url: htmlUrl,
+                title: title,
+            },
+            linkedin: {
+                url: htmlUrl,
+                title: title,
+            },
+            facebook: {
+                url: htmlUrl,
+                title: title,
+            },
+            twitter: {
+                url: htmlUrl,
+                title: title,
+            },
+            whatsapp: {
+                url: htmlUrl,
+                title: title,
+            },
+            telegram: {
+                url: htmlUrl,
+                title: title,
+            },
+        }
     }
   </script>
   <script>
@@ -37,5 +65,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
 </body>
 </html>
