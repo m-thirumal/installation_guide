@@ -134,3 +134,8 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 ### Maven
 1. [Upgrade Maven](maven/upgrade_maven.md)
 
+### [Wordpress](wordpress/wordpress.md)
+
+   * [Installation](wordpress/wordpress.md)
+   * [Export/Import](/wordpress/export_import.md)
+

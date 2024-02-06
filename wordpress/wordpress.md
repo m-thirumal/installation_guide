@@ -4,5 +4,7 @@ WordPress is the most popular open-source blogging system and CMS on the Web. It
 
 ## [Installation](/wordpress/installation.md)
 
+## [Export/Import](/wordpress/export_import.md)
+
 
 
