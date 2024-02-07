@@ -138,4 +138,5 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 
    * [Installation](wordpress/wordpress.md)
    * [Export/Import](/wordpress/export_import.md)
+   * [Troubleshoot](/wordpress/troubleshoot.md)
 

@@ -47,3 +47,4 @@
 
    * [Installation](wordpress/installation.md)
    * [Export/Import](/wordpress/export_import.md)
+   * [Troubleshoot](/wordpress/troubleshoot.md)

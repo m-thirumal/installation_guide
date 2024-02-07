@@ -138,5 +138,6 @@
 
    * [Installation](wordpress/installation.md)
    * [Export/Import](/wordpress/export_import.md)
+   * [Troubleshoot](/wordpress/troubleshoot.md)
 
 * [VisualVm](visualVm/visualvm_remote_set_up.md)
