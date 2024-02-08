@@ -19,7 +19,7 @@ brew install qt libxml2 libpq
 
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
-```bash
+```c++
 macx {
   PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
   PGSQL_INC = /Applications/Postgres.app/Contents/Versions/latest/include
@@ -28,6 +28,7 @@ macx {
   INCLUDEPATH += $$PGSQL_INC $$XML_INC
 }
 ```
+
 then, run the below command to build
 
 ```bash
@@ -35,7 +36,8 @@ then, run the below command to build
 ```
 
 ### For M1, M2... Chip
-```
+
+```c++
 macx {
   !defined(PGSQL_LIB, var): PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
   !defined(PGSQL_INC, var): PGSQL_INC = /Applications/Postgres.app/Contents/Versions/latest/include
@@ -44,6 +46,7 @@ macx {
   INCLUDEPATH += "$$PGSQL_INC" "$$XML_INC"
 }
 ```
+
 then, run the below command to build
 
 ```bash
@@ -62,9 +65,9 @@ Go to application and select pgmodeler
 
 Enjoy !!!
 
-![](mac-pgmodeler.png)
+![screenshot](./img/mac-pgmodeler.png)
 
-![](Mac-PgModeler-1.png)
+![screenshot](./img/Mac-PgModeler-1.png)
 
 #### Known Problem
 

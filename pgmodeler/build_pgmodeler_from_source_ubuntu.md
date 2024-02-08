@@ -22,6 +22,7 @@ or install all dependencies in one command line
 ```bash
 sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev qmake6
 ```
+
 #### Make qt6 default in system for current user (since 1.0.2 qmake6 - REQUIERED)
 
 qtchooser -install $(which qmake6)
@@ -36,7 +37,6 @@ git clone https://github.com/pgmodeler/pgmodeler.git
 cd pgmodeler
 ```
 
-
 #### Build the application
 
 Once everything is prepared, you can compile and install pgmodeler using the following commands
@@ -50,6 +50,7 @@ sudo make install
 The binary will be available in */usr/local/bin/*
 
 #### Open PgModeler
+
 Just type the below command in terminal
 
 ```bash
