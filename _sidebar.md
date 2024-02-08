@@ -30,7 +30,7 @@
   * [PgAdmin4 using Docker](pgadmin4/install_pgadmin4_using_docker.md)
   * [Update PgAdmin4 docker image](pgadmin4/update_pgadmin4_docker_image.md)
 
-* [PgModeler](pgmodeler/pgmodeler.md)
+* PgModeler
   * [Mac installation from source code](/pgmodeler/build_pgmodeler_from_source_mac.md)
   * [Ubuntu installation from source code](/pgmodeler/build_pgmodeler_from_source_ubuntu.md)
   * [Extension](/pgmodeler/Extension.md)
