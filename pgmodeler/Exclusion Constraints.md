@@ -9,7 +9,21 @@
 
 1. Click on `Objects` -> `projects` -> `schema` -> `pg_catalog` -> `function` -> `Create function` with parameterm & return type
 
+Function
+
 ![Dummy Function](img/dummy_function.png)
+
+Parameter
+
+![Dummy Function](img/dummy_function_parameter.png)
+
+Definition
+
+![Dummy Function](img/dummy_function_definition.png)
+
+Transform
+
+![Dummy Function](img/dummy_function_transform.png)
 
 ```XML
 <function name="dummy_func" sql-disabled="true"
