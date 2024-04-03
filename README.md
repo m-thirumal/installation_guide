@@ -103,6 +103,7 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 1. [Install & Virtual host Niginx](Nginx/installation_in_Ubuntu.md)
 2. [Reverse Proxy using symblink](Nginx/reverse_proxy_with_symblink.md)
 3. [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
+4. [Redirect IP address access to domain name](Nginx/Redirect%20IP%20address%20to%20domain%20name.md)
 
 ### Git
 1. [SSH Clone](git/ssh_git_clone.md)

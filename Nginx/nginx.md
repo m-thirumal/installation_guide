@@ -21,3 +21,5 @@
 11. [To access website log](Nginx/log.md)
 
 12. [Add Godaddy SSL certificate](Nginx/Generate%20and%20install%20godaddy%20ssl%20certificate.md)
+
+13. [Redirect IP address access to domain name](Nginx/Redirect%20IP%20address%20to%20domain%20name.md)

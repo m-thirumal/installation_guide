@@ -124,6 +124,7 @@
   * [Security Tips](Nginx/Security_tips.md)
   * [Uninstall](Nginx/Uninstall.md)
   * [Log](Nginx/log.md)
+  * [Redirect IP address access to domain name](Nginx/Redirect%20IP%20address%20to%20domain%20name.md)
 
 * Git
   * [SSH Clone](git/ssh_git_clone.md)
