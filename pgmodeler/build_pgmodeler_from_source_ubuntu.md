@@ -16,12 +16,13 @@
  sudo apt-get install libpq-dev
  sudo apt-get install libqt5svg5-dev
  sudo apt-get install libqt6svg6*
+ sudo apt-get install libxext-dev
 ```
 
 or install all dependencies in one command line
 
 ```bash
-sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev qmake6 libqt6svg6*
+sudo apt-get install build-essential git qtcreator qt6-base-dev qt5-qmake libpq5 libxml2 pkg-config xml2 libxml2-dev libpq-dev libqt5svg5-dev qmake6 libqt6svg6* libxext-dev
 ```
 
 #### Make qt6 default in system for current user (since 1.0.2 qmake6 - REQUIERED)
