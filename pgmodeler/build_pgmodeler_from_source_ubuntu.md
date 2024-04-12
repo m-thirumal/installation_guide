@@ -64,4 +64,22 @@ pgmodeler
 Tested with Ubuntu-20.04
 Enjoy !!!
 
+#### Extras
+
+Add Desktop shortcut
+
+Create `PgModeler.desktop` file in the `~Desktop` location with the following content
+
+```shell
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PgModeler
+Exec=/usr/local/bin/pgmodeler
+Icon=/home/enkindle/Pictures/pgmodeler_logo.png
+Terminal=false
+```
+
+Right click on the file and `Allow Launcing` and `Allow Execution`.
+
 ![output](Ubuntu.png)
