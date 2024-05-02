@@ -22,7 +22,7 @@
 
 * DEVOPS
   * [DOCKER](docker/installtion_configuration.md)
-  * [Jenkins](jenkin/installation.md)
+  * [Jenkins](jenkin/jenkins.md)
   * [Nginx](Nginx/nginx.md)
   * [Git](git/commands.md)
   * [Maven](maven/upgrade_maven.md)
