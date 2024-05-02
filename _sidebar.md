@@ -77,7 +77,7 @@
   * [Installation](python/installation.md)
   * [Installation](python/virtualevn.adoc)
 
-* Jenkins
+* [Jenkins](jenkin/jenkins.md)
   * [Install Jenkin](jenkin/installation.md)
   * [Config with Private IP](jenkin/config_with_private_ip.md)
   * [Email Integration/notification](jenkin/Email%20Integration.md)
