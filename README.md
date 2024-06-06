@@ -22,6 +22,7 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 
   * [Install and configuration of database](JanusGraph/Installation.md)
   * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)
+  * [Configuration](JanusGraph/Configuration.md)
   * [Run Janus on different Port](JanusGraph/Run%20Janus%20on%20different%20Port.md)
   * [Change Cassandra keystore](JanusGraph/Change%20Keystore.md)
   * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
