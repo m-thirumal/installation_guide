@@ -11,7 +11,7 @@
   * [Cassandra Installation](Cassandra/Installation.md)
   * [Configuration](Cassandra/configuration.md)
 
-* JanusGraph
+* [JanusGraph](JanusGraph/JanusGraph.md)
 
   * [Install and configuration of database](JanusGraph/Installation.md)
   * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)
@@ -24,6 +24,8 @@
   * [Drop Graph database](JanusGraph/Drop%20Database.md)
   * [Visualization Tool](JanusGraph/Visualization%20Tool.md)
   * [Frequently Used Queries](JanusGraph/Frequently%20Used%20Query.md)
+  * [Hosting Multiple Graph](JanusGraph/Hosting%20Multiple%20Graph.md)
+  * [Troubleshoot](JanusGraph/Trobleshoot.md)
 
 * Install PgAdmin4
   * [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache*md)

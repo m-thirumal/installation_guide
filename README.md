@@ -8,23 +8,31 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 
 ### Install PostgreSQL
 
-   * [Install PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
+* [Install PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
-   * [UnInstall](PostgreSQL/UnInstall%20PostgreSQL.md)
+* [UnInstall](PostgreSQL/UnInstall%20PostgreSQL.md)
 
-   * [WAL Archive & PITR](PostgreSQL/WAL%20Archive%20&%20PITR.md)
+* [WAL Archive & PITR](PostgreSQL/WAL%20Archive%20&%20PITR.md)
 
 ### Cassandra
 
 1. [Cassandra Installation](Cassandra/Installation.md)
 
-### Janus Graph database
+* [JanusGraph](JanusGraph/JanusGraph.md)
 
-1. [Install and configuration of database](JanusGraph/Installation.md)
-2. [Gremlin Console](JanusGraph/Gremlin%20Console.md)
-3. [Management API](JanusGraph/Management%20API.md)
-4. [Indexing](JanusGraph/indexing.md)
-5. [Drop Graph/database](JanusGraph/Management%20API.md)
+  * [Install and configuration of database](JanusGraph/Installation.md)
+  * [Cassandra Storage backend](JanusGraph/Cassandra%20Storage%20Backend.md)
+  * [Run Janus on different Port](JanusGraph/Run%20Janus%20on%20different%20Port.md)
+  * [Change Cassandra keystore](JanusGraph/Change%20Keystore.md)
+  * [Gremlin Console](JanusGraph/Gremlin%20Console.md)
+  * [Management API](JanusGraph/Management%20API.md)
+  * [Indexing](JanusGraph/indexing.md)
+  * [Schema & Index](JanusGraph/Schema%20Index.md)
+  * [Drop Graph database](JanusGraph/Drop%20Database.md)
+  * [Visualization Tool](JanusGraph/Visualization%20Tool.md)
+  * [Frequently Used Queries](JanusGraph/Frequently%20Used%20Query.md)
+  * [Hosting Multiple Graph](JanusGraph/Hosting%20Multiple%20Graph.md)
+  * [Troubleshoot](JanusGraph/Trobleshoot.md)
 
 ### Install PgAdmin4
 1. [PgAdmin using Apache2](pgadmin4/install_pgadmin4_using_apache2.md)
@@ -71,22 +79,22 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 
 ### Redis
 
-   * [Install](redis/install.md)
+* [Install](redis/install.md)
 
-      * [Install from Source on ubuntu - Shell file](redis/install_redis_from_source_ubuntu.sh)
-      * [Install from source on Mac](redis/install_redis_in_mac_from_source.md)
-      * Docker
+  * [Install from Source on ubuntu - Shell file](redis/install_redis_from_source_ubuntu.sh)
+  * [Install from source on Mac](redis/install_redis_in_mac_from_source.md)
+  * Docker
          `docker pull redis`
     
-   * [Redis Clients](redis/redis-client.md)
+* [Redis Clients](redis/redis-client.md)
 
-   * [Enable Remote Access](redis/redis_enable_remote_access.md)
+* [Enable Remote Access](redis/redis_enable_remote_access.md)
 
-   * [Troubleshoot](redis/troubleshoot.md)
+* [Troubleshoot](redis/troubleshoot.md)
 
-   * [Uninstall](redis/Uninstall.md)
+* [Uninstall](redis/Uninstall.md)
 
-   * [Redis Server shell file](redis/redis-server)
+* [Redis Server shell file](redis/redis-server)
 
 ### AWS - Website hosting
 1. [Host static website using S3](aws/host_static_website_using_s3.md)
@@ -137,7 +145,7 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 
 ### [Wordpress](wordpress/wordpress.md)
 
-   * [Installation](wordpress/wordpress.md)
-   * [Export/Import](/wordpress/export_import.md)
-   * [Troubleshoot](/wordpress/troubleshoot.md)
+* [Installation](wordpress/wordpress.md)
+* [Export/Import](/wordpress/export_import.md)
+* [Troubleshoot](/wordpress/troubleshoot.md)
 
