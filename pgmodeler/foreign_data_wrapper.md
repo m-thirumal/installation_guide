@@ -4,6 +4,6 @@ Foreign-data wrappers are objects used to consume data from different data sourc
 
 1. Add `postgres_fdw` extension
 
-![Adding Extension](/pgmodeler/img/fwd/fwd_extension.png)
+![Adding Extension](../img/fwd/fwd_extension.png)
 
 2. 
