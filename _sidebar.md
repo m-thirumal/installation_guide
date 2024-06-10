@@ -36,6 +36,7 @@
 * PgModeler
   * [Mac installation from source code](/pgmodeler/build_pgmodeler_from_source_mac.md)
   * [Ubuntu installation from source code](/pgmodeler/build_pgmodeler_from_source_ubuntu.md)
+  * [FWD - Foreign Data Wrapper](/pgmodeler/foreign_data_wrapper.md)
   * [Extension](/pgmodeler/Extension.md)
   * [Exclusion Constraints](/pgmodeler/Exclusion%20Constraints.md)
 

@@ -3,8 +3,9 @@
 Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.github.io/installation_guide/) for HTML view
 
 ### Build PgModeler from source code
-1. [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
-2. [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
+* [Guide for Ubuntu](pgmodeler/build_pgmodeler_from_source_ubuntu.md)
+* [Guide for Mac](pgmodeler/build_pgmodeler_from_source_mac.md)
+* [FWD - Foreign Data Wrapper](/pgmodeler/foreign_data_wrapper.md)
 
 ### Install PostgreSQL
 
