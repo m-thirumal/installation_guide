@@ -26,12 +26,46 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 
 4. Create `Foreign Server` with the following options
     1. dbname - `postgres`
-    2. host  - `127.0.0.1`
-    3. port  - `5432`
+    2. host   - `127.0.0.1`
+    3. port   - `5432`
 
 !> Please ensure that the `remote database cluster` has the `pg_hba.conf` entry corresponding to the database server for which the foreign server has to be created.
 
+Debug with following SQL
+```sql
+select * from pg_foreign_server;
+```
+
 ![Foreign Server](./img/fwd/fwd_server.png)
+
+5. Create `USER MAPPING`
+ 
+  Select `server` and enter the user name and password in the options
+
+  ```sql
+user     : fdw_user
+password : thirumal
+  ```
+
+Debug with following query
+
+```sql
+select * from pg_user_mapping
+```
+
+![User Mapping](./img/fwd/user_mapping.png)
+
+6. Import or Create `foreign table`
+
+ To import use the following SQL
+
+ ```sql
+IMPORT FOREIGN SCHEMA foreign_schema FROM SERVER foreign_server INTO public;
+ ```
+
+ Create `schema` with same name, if it's not available and create `foreign table`
+
+ ![Foreign Table](./img/fwd/foreign_table.png)
 
 
 ## Set in Remote server
@@ -44,5 +78,5 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 
 ```bash
 # IPv4 local connections:
-host    replication     fwd_user             127.0.0.1/32            scram-sha-256
+host    db_name     fwd_user             127.0.0.1/32            scram-sha-256
 ```
