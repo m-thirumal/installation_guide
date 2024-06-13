@@ -72,7 +72,7 @@ IMPORT FOREIGN SCHEMA foreign_schema FROM SERVER foreign_server INTO public;
 
 1. Create `read_only` user (Eg:`fwd_user`) in the `remote server` with enough `privilage` on the `schema/tables`.
 
-2. [Role](./Role.md)
+2. [Role](/pgmodeler/Role.md)
 
 3. Give permission for foriegn server to access in `pg_hba.conf`
 
