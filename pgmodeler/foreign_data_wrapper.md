@@ -1,6 +1,10 @@
 # FDW - Foreign Data Wrapper
 
-Foreign-data wrappers are objects used to consume data from different data sources not necessarily another PostgreSQL database system.
+A foreign data wrapper is an extension available in PostgreSQL that allows you to consume data from different data sources not necessarily another PostgreSQL database system. Foreign data wrappers can serve all sorts of purposes:
+
+   * Completing a data flow cycle
+   * Your data may be segregated across databases, but still related in ways that makes being able to combine or aggregate it desirable
+   * Allows you to control the permissions on the foreign tables
 
 1. Add `postgres_fdw` extension
 
