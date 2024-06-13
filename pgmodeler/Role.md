@@ -7,4 +7,4 @@
 * Add member or Expand `schema` -> `Permission` -> Select `role` -> Give `Privilages`
 
 
-![Role](/pgmodeler/img/role/role.png)
+![Role](./img/role/role.png)
