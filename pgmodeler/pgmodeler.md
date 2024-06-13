@@ -7,6 +7,7 @@
 * [Extension](/pgmodeler/Extension.md)
 * [FWD - Foreign Data Wrapper](/pgmodeler/foreign_data_wrapper.md)
 * [Exclusion Constraints](/pgmodeler/Exclusion%20Constraints.md)
+* [Role/User](/pgmodeler/Role.md)
 
 ![screenshot](./img/mac-pgmodeler.png)
 

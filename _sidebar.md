@@ -39,6 +39,7 @@
   * [FWD - Foreign Data Wrapper](/pgmodeler/foreign_data_wrapper.md)
   * [Extension](/pgmodeler/Extension.md)
   * [Exclusion Constraints](/pgmodeler/Exclusion%20Constraints.md)
+  * [Role/User](/pgmodeler/Role.md)
 
 * Open Project
 
