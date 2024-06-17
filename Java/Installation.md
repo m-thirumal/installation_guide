@@ -10,15 +10,15 @@
 
 ### OpenJdk installation on Mac OSX
 
-Download the latest version of [Java](https://jdk.java.net/18/) & unzip.
+Download the latest version of [Java Archive](https://jdk.java.net/archive/) & unzip.
 
 Move the unziped `directory` to `java virtual machine`
 
-    sudo mv jdk-11.jdk /Library/Java/JavaVirtualMachines/
+    sudo mv jdk-21.jdk /Library/Java/JavaVirtualMachines/
     
 OR Copy 
 
-    sudo tar xvzf openjdk-18_macos-aarch64_bin.tar.gz -C /Library/Java/JavaVirtualMachines
+    sudo tar xvzf openjdk-21_macos-aarch64_bin.tar.gz -C /Library/Java/JavaVirtualMachines
 
 
 Check the version
@@ -28,11 +28,11 @@ Check the version
 
 ### OpenJdk Installation on Ubuntu by downloading
 
-Download the latest version of [Java](https://jdk.java.net/15/) & unzip.
+Download the latest version of [Java Archive](https://jdk.java.net/archive/) & unzip.
 
 Move the unziped `directory` to `java virtual machine`
 
-    sudo tar xfvz openjdk-11.0.1_linux-x64_bin.tar.gz --directory /usr/lib/jvm
+    sudo tar xfvz openjdk-21.0.1_linux-x64_bin.tar.gz --directory /usr/lib/jvm
 
 #### Change the default version of `Java`
 
@@ -47,14 +47,14 @@ Then, enter the number you want to switch
 
     Selection    Path                                         Priority   Status
     ------------------------------------------------------------
-    * 0            /usr/lib/jvm/java-14-openjdk-amd64/bin/java   1411      auto mode
-    1            /usr/lib/jvm/java-14-openjdk-amd64/bin/java   1411      manual mode
-    2            /usr/lib/jvm/jdk-15.0.1/bin/java              1         manual mode
+    * 0            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1411      auto mode
+    1            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1411      manual mode
+    2            /usr/lib/jvm/jdk-21.0.1/bin/java              1         manual mode
 
     Press <enter> to keep the current choice[*], or type selection number: 2
 
 
-    update-alternatives: using /usr/lib/jvm/jdk-15.0.1/bin/java to provide /usr/bin/java (java) in manual mode
+    update-alternatives: using /usr/lib/jvm/jdk-21.0.1/bin/java to provide /usr/bin/java (java) in manual mode
 
 Check the version
 
