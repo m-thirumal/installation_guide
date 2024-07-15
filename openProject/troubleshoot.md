@@ -5,9 +5,14 @@
    To check database configuration - `vi /etc/openproject/conf.d/00_addon_postgres`
 
 ## Trouble during update
+
    Reconfigure the `openproject`
 
- ```sudo openproject reconfigure```
+``` bash
+ sudo openproject reconfigure
+```
+
+Skip installation of apache.
 
 
 ## HTTPS mode setup mismatch
