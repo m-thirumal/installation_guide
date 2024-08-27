@@ -33,8 +33,10 @@ location / {
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
                 #try_files $uri $uri/ =404;
-                proxy_pass http://127.0.0.1:6000; # Forward to another Domain/PORT
+            proxy_pass http://127.0.0.1:6000; # Forward to another Domain/PORT
             proxy_http_version 1.1;
+            proxy_set_header Cookie $http_cookie;
+            proxy_set_header X-Forwarded-Proto $scheme; # To avoid csrf error, it's must
             proxy_set_header Host $host; # Preserve Actual Header
             proxy_set_header X-Real-IP $remote_addr; # Preserve Actual client Ip
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
