@@ -131,8 +131,12 @@
   * [Log](Nginx/log.md)
   * [Redirect IP address access to domain name](Nginx/Redirect%20IP%20address%20to%20domain%20name.md)
 
-* Git
+* [Git](git/git.md)
+  * [Basic Commands](git/commands.md)
   * [SSH Clone](git/ssh_git_clone.md)
+  * [Repository migration](git/git_repo_migration.md)
+  * [Export as Zip](git/Export.md)
+  * [TroubleShoot](git/Troubleshoot.md)
 
 * Spring boot
 
