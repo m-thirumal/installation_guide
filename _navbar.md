@@ -24,7 +24,7 @@
   * [DOCKER](docker/installtion_configuration.md)
   * [Jenkins](jenkin/jenkins.md)
   * [Nginx](Nginx/nginx.md)
-  * [Git](git/commands.md)
+  * [Git](git/git.md)
   * [Maven](maven/upgrade_maven.md)
   * [Let's Encrypt - SSL/TLS](TLS/let's_encrypt.md)
   * [Certbot](TLS/certbot.md)
