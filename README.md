@@ -118,8 +118,12 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 3. [Add TLS For Nginx Hosted Site](Nginx/Add_TLS_For_Nginx_Hosted_Site.md)
 4. [Redirect IP address access to domain name](Nginx/Redirect%20IP%20address%20to%20domain%20name.md)
 
-### Git
-1. [SSH Clone](git/ssh_git_clone.md)
+### [Git](git/git.md)
+  * [Basic Commands](git/commands.md)
+  * [SSH Clone](git/ssh_git_clone.md)
+  * [Repository migration](git/git_repo_migration.md)
+  * [Export as Zip](git/Export.md)
+  * [TroubleShoot](git/Troubleshoot.md)
 
 ### 12 Factor App
 
