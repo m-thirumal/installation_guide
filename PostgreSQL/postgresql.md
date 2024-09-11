@@ -2,7 +2,10 @@
 
 * [Install PostgreSQL](PostgreSQL/Install_PostgresQL_in_Ubuntu.md)
 
-* [Configuration Recommendation](https://pgconfigurator.cybertec-postgresql.com/)
+* Websites that are helpful to configuration based on hardware
+
+  * [https://pgconfigurator.cybertec-postgresql.com/](https://pgconfigurator.cybertec-postgresql.com/)
+  * [https://pgtune.leopard.in.ua/](https://pgtune.leopard.in.ua/)
 
 * [UnInstall](PostgreSQL/UnInstall%20PostgreSQL.md)
 
