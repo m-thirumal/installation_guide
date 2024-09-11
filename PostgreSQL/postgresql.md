@@ -10,3 +10,5 @@
 * [UnInstall](PostgreSQL/UnInstall%20PostgreSQL.md)
 
 * [WAL Archive & PITR](PostgreSQL/WAL%20Archive%20&%20PITR.md)
+
+* [PostgreSQL Tutorial](https://m-thirumal.github.io/postgresql/#/)
