@@ -46,6 +46,10 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 
 3. Create FDW (Foreign  Data Wrapper), with the above created `handler` and `validator`.
 
+  * name `postgres_fdw`
+  * Select the above created `handler` fuction on the Handler & `vallidator` function on Validator dropdown
+  * Disable `SQL` code
+
 ![FWD](./img/fwd/fwd.png)
 
 4. Create `Foreign Server` with the following options
