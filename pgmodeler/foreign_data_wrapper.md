@@ -92,7 +92,7 @@ select * from pg_user_mapping
   IMPORT FOREIGN SCHEMA foreign_schema FROM SERVER foreign_server INTO public;
  ```
 
- Create `schema` with same name, if it's not available and create `foreign table`
+ Create `schema` with same name, if it's not available and create `foreign table` with `server` from the selection under `New` -> `schema`
 
  ![Foreign Table](./img/fwd/foreign_table.png)
 
