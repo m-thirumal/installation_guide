@@ -13,8 +13,17 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 ![Adding Extension](./img/fwd/fwd_extension.png)
 
 2. Create two function
-    1. Handler with name `postgres_fdw_handler` with data type `fwd_handler`
+    1. Handler with name `postgres_fdw_handler` with 
+      * Attribute
+        * Language - `c`
+        * Return method - `simple`
+        * Data type - `fwd_handler`
+      * Definition
+        * Symbol - `$libdir/postgres_fdw`
+        * Library - `postgres_fdw_handler`
+      * Disable `SQL` code
     2. Validator with name `postgres_fdw_validator` with data type `void`
+
 
 ![Handler](./img/fwd/fwd_func_handler.png)
 ![Validator](./img/fwd/fwd_func_validator.png)
