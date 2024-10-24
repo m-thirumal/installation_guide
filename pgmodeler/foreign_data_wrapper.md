@@ -14,31 +14,31 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 
 2. Create two function
     1. Handler with name `postgres_fdw_handler` with 
-      * Attribute
-        * Language - `c`
-        * Return method - `simple`
-        * Data type - `fwd_handler`
-      * Definition
-        * Symbol - `$libdir/postgres_fdw`
-        * Library - `postgres_fdw_handler`
-      * Disable `SQL` code
+        * Attribute
+          * Language - `c`
+          * Return method - `simple`
+          * Data type - `fwd_handler`
+        * Definition
+          * Symbol - `$libdir/postgres_fdw`
+          * Library - `postgres_fdw_handler`
+        * Disable `SQL` code
 
     2. Validator with name `postgres_fdw_validator`
-      * Attribute
-        * Language - `c`
-        * Return method - `simple`
-        * Data type `void`
-      * Parameters
-        * Create parameter with
-          - name - p1
-          - type - text[]
-        * Create another parameter with 
-          - name - p2
-          - type - oid
-      * Definition
-        * Symbol - `$libdir/postgres_fdw`
-        * Library - `postgres_fdw_validator`
-      * Disable `SQL` code
+        * Attribute
+          * Language - `c`
+          * Return method - `simple`
+          * Data type `void`
+        * Parameters
+          * Create parameter with
+            - name - p1
+            - type - text[]
+          * Create another parameter with 
+            - name - p2
+            - type - oid
+        * Definition
+          * Symbol - `$libdir/postgres_fdw`
+          * Library - `postgres_fdw_validator`
+        * Disable `SQL` code
 
 
 ![Handler](./img/fwd/fwd_func_handler.png)
@@ -46,9 +46,9 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 
 3. Create FDW (Foreign  Data Wrapper), with the above created `handler` and `validator`.
 
-  * name `postgres_fdw`
-  * Select the above created `handler` fuction on the Handler & `vallidator` function on Validator dropdown
-  * Disable `SQL` code
+    * name `postgres_fdw`
+    * Select the above created `handler` fuction on the Handler & `vallidator` function on Validator dropdown
+    * Disable `SQL` code
 
 ![FWD](./img/fwd/fwd.png)
 
@@ -67,14 +67,14 @@ select * from pg_foreign_server;
 
 ![Foreign Server](./img/fwd/fwd_server.png)
 
-5. Create `USER MAPPING`
+5. Click on `USER MAPPING` and create new mapping
+  
+  1. Select `server` and enter the user name and password in the options, with `key-value` pair
 
-  Select `server` and enter the user name and password in the options
-
-  ```sql
-user     : fdw_user
-password : thirumal
-  ```
+      ```sql
+      user     : fdw_user
+      password : thirumal
+      ```
 
 Debug with following query
 
@@ -84,12 +84,12 @@ select * from pg_user_mapping
 
 ![User Mapping](./img/fwd/user_mapping.png)
 
-6. Import or Create `foreign table`
+6. Create (OR) Import `foreign table`
 
- To import use the following SQL
+ `SQL` to import schema
 
  ```sql
-IMPORT FOREIGN SCHEMA foreign_schema FROM SERVER foreign_server INTO public;
+  IMPORT FOREIGN SCHEMA foreign_schema FROM SERVER foreign_server INTO public;
  ```
 
  Create `schema` with same name, if it's not available and create `foreign table`
