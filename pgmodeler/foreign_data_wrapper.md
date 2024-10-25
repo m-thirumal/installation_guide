@@ -13,7 +13,7 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 ![Adding Extension](./img/fwd/fwd_extension.png)
 
 2. Create two function
-    1. Handler with name `postgres_fdw_handler` with 
+    1. Handler with name `postgres_fdw_handler` with
         * Attribute
           * Language - `c`
           * Return method - `simple`
@@ -30,16 +30,15 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
           * Data type `void`
         * Parameters
           * Create parameter with
-            - name - p1
-            - type - text[]
-          * Create another parameter with 
-            - name - p2
-            - type - oid
+            * name - p1
+            * type - text[]
+          * Create another parameter with
+            * name - p2
+            * type - oid
         * Definition
           * Symbol - `$libdir/postgres_fdw`
           * Library - `postgres_fdw_validator`
         * Disable `SQL` code
-
 
 ![Handler](./img/fwd/fwd_func_handler.png)
 ![Validator](./img/fwd/fwd_func_validator.png)
@@ -57,7 +56,7 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
     2. host   - `127.0.0.1`
     3. port   - `5432`
 
-!> Please ensure that the `remote database cluster` has the `pg_hba.conf` entry corresponding to the database server for which the foreign server has to be created.
+!> Please ensure that the `remote database cluster` has the `pg_hba.conf` entry corresponding to the database server for which the foreign server has to be created. [Set up remote server](#set-in-remote-server)
 
 Debug with following SQL
 
@@ -69,7 +68,7 @@ select * from pg_foreign_server;
 
 5. Click on `USER MAPPING` and create new mapping
   
-  1. Select `server` and enter the user name and password in the options, with `key-value` pair
+1. Select `server` and enter the user name and password in the options, with `key-value` pair
 
       ```sql
       user     : fdw_user
