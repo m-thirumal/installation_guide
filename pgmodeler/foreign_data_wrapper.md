@@ -122,6 +122,7 @@ Error:
 
 ```SQL
 ERROR:  permission denied for table login_user
+
 CONTEXT:  remote SQL command: SELECT login_user_id, login_uuid, date_of_birth, individual, row_created_on FROM public.login_user 
 ```
 

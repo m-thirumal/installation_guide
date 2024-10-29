@@ -6,4 +6,8 @@
 
 * Add member or Expand `schema` -> `Permission` -> Select `role` -> Give `Privilages`
 
-![Role](./img/role/role.png)
+![Role](./img/role/create-role.png)
+
+* Go to the `table/schema` -> `permission` to provide the privilege.
+
+![Assign Role](./img/role/role.png)
