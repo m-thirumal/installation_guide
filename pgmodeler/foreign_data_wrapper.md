@@ -5,6 +5,14 @@ A foreign data wrapper is an extension available in PostgreSQL that allows you t
 * Completing a data flow cycle
 * Your data may be segregated across databases, but still related in ways that makes being able to combine or aggregate it desirable
 * Allows you to control the permissions on the foreign tables
+* Improve performance and to check data integrity on microservice architecture
+
+Steps to set up
+
+1. [Set up in Local Server](#set-up-in-local-server)
+2. [Set up in Remote server](#set-up-in-remote-server-where-actual-datatable-is-located) (Where actual data/table is located)
+3. [Troubleshoot](#troubleshoot)
+
 
 ## Set up in Local Server
 
@@ -95,15 +103,29 @@ select * from pg_user_mapping
 
  ![Foreign Table](./img/fwd/foreign_table.png)
 
-## Set in Remote server
+## Set up in Remote server (Where actual data/table is located)
 
-1. Create `read_only` user (Eg:`fwd_user`) in the `remote server` with enough `privilage` on the `schema/tables`.
+1. Create `read_only` user (Eg:`fdw_user`) in the `remote server` with enough `privilage` on the `schema/tables`.
 
-2. [Role](/pgmodeler/Role.md)
+2. Check [Role](/pgmodeler/Role.md) page
 
-3. Give permission for foriegn server to access in `pg_hba.conf`
+3. Give permission for foriegn server to access by modifying the configuration file `pg_hba.conf` that is located in `/etc/postgresql/{version}/main`
 
 ```bash
 # IPv4 local connections:
-host    db_name     fwd_user             127.0.0.1/32            scram-sha-256
+host    db_name     fdw_user             127.0.0.1/32            scram-sha-256
 ```
+
+## Troubleshoot
+
+Error:
+
+```SQL
+ERROR:  permission denied for table login_user
+CONTEXT:  remote SQL command: SELECT login_user_id, login_uuid, date_of_birth, individual, row_created_on FROM public.login_user 
+```
+
+Solution:
+
+1. Check the role is added
+2. Check the permission for the role is added for the table
