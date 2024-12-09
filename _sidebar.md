@@ -60,9 +60,6 @@
   * [Network](docker/network.md)
   * [Docker Spring Boot](docker/spring-boot.md)
 
-* IPSec VPN
-  * [IPsec VPN in Ubuntu](IP%20Sec%20VPN/Ipsec%20VPN%20in%20Ubuntu.md)
-  * [IPSec VPN in MAC](IP%20Sec%20VPN/VPN%20Connection%20without%20any%20client%20in%20MAC.md)
 
 * [Network & Security](Network & Security)
   * [TP Link](Tp-Link%20VPN%20Router/tplink.md)
@@ -73,6 +70,10 @@
     * [Network Load balancing](Fortigate/Load%20balancer/Dual%20Intenet%20connection.md)
   * [Forticlient](Forticlient/Install_FortiClient_Ubuntu.md)
     * [Install Forticlient VPN on Ubuntu 20.04](Forticlient/Install_FortiClient_Ubuntu.md)
+  * IPSec VPN
+    * [IPsec VPN in Ubuntu](IP%20Sec%20VPN/Ipsec%20VPN%20in%20Ubuntu.md)
+    * [IPSec VPN in MAC](IP%20Sec%20VPN/VPN%20Connection%20without%20any%20client%20in%20MAC.md)
+
 * Java
   * [Installation](Java/Installation.md)
 
