@@ -1,4 +1,4 @@
 # TP Link
 
-* [Set up](./Set%20up.md)
-* [VPN Setup](VPN%20Setup.md)
+* [Set up](Network/Tp-Link%20VPN%20Router//Set%20up.md)
+* [VPN Setup](Network/Tp-Link%20VPN%20Router/VPN%20Setup.md)
