@@ -15,6 +15,6 @@
 
   !> To send `Traffic` over **VPN** connection check the option under `Option`
 
-![Client Setup Example](Network/Tp-Link%20VPN%20Router/img/L2TP%20Client.png)
+![Client Setup Example](./img/L2TP%20Client.png)
 
-![Traffic over VPN Connection](Network/Tp-Link%20VPN%20Router/img/L2Tp%20Option.png)
+![Traffic over VPN Connection](./img/L2Tp%20Option.png)
