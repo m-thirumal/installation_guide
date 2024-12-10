@@ -1,17 +1,20 @@
 # Client setup of L2TP Over IPSec
 
-## MacOs
+## MacOS
 
 * Go to `System setting` -> `Network` -> and click on `Add VPN Configuration` button
 
-* Enter
+* Enter the following details
 
-    * `Static IP address` or `Domain Name`
-    * `Account/User Name`
-    * `Password`
-    * `Pre-shared password`
-    * `Group Name` - Optional
+  * `Static IP address` or `Domain Name`
+  * `Account/User Name`
+  * `Password`
+  * `Pre-shared password`
+  * `Group Name` - Optional
+  * Save and Connect  
+
+  !> To send `Traffic` over **VPN** connection check the option under `Option`
 
 ![Client Setup Example](Network/Tp-Link%20VPN%20Router/img/L2TP%20Client.png)
 
-* Save and Connect
+![Traffic over VPN Connection](Network/Tp-Link%20VPN%20Router/img/L2Tp%20Option.png)
