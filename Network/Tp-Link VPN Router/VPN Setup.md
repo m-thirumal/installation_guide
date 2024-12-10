@@ -10,12 +10,15 @@
 
 * Create User with the following inputs.
 
-    * Account Name / User Name
-    * Password
-    * Protocol - L2TP
-    * Local IPAddress. 
-    * IP Address Poll that is created in `VPN IP Pool`
-    * Network Mode - `Client-to-LAN`
+  * Account Name / User Name
+  * Password
+  * Protocol - L2TP
+  * Local IPAddress.
+  * IP Address Poll that is created in `VPN IP Pool`
+  * Network Mode - `Client-to-LAN`
 
+  !> To send `Traffic` over **VPN** connection check the option under `Option`
 
-[VPN User](Network/Tp-Link%20VPN%20Router/img/VPN%20User.png)
+![VPN User](Network/Tp-Link%20VPN%20Router/img/VPN%20User.png)
+
+![Traffic over VPN Connection](Network/Tp-Link%20VPN%20Router/img/L2Tp%20Option.png)
