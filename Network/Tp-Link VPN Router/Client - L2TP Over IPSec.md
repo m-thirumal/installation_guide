@@ -17,4 +17,4 @@
 
 ![Client Setup Example](./img/L2TP%20Client.png)
 
-![Traffic over VPN Connection](./img/L2Tp%20Option.png)
+![Traffic over VPN Connection](./img/L2TP%20Option.png)
