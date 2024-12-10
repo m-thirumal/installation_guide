@@ -12,6 +12,6 @@
     * `Pre-shared password`
     * `Group Name` - Optional
 
-    ![Client Setup Example](Network/Tp-Link%20VPN%20Router/img/L2TP%20Client.png)
+![Client Setup Example](Network/Tp-Link%20VPN%20Router/img/L2TP%20Client.png)
 
 * Save and Connect
