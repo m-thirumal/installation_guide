@@ -19,6 +19,8 @@ brew install qt libxml2 libpq
 
 And change the installation path in `pgmodeler.pri`, something similar to the following configuration
 
+### For intel chip based Mac
+
 ```c++
 macx {
   PGSQL_LIB = /Applications/Postgres.app/Contents/Versions/latest/lib/libpq.dylib
@@ -35,7 +37,7 @@ then, run the below command to build
 /usr/local/opt/qt/bin/qmake -r pgmodeler.pro
 ```
 
-### For M1, M2... Chip
+### For M1, M2... Chip based Mac
 
 ```c++
 macx {
