@@ -77,10 +77,13 @@ Visit [https://m-thirumal.github.io/installation_guide/](https://m-thirumal.gith
 1.[Installation](python/installation.md)
 2.[Installation](python/virtualevn.adoc)
 
-### Jenkins
-1. [Install Jenkin](jenkin/installation.adoc)
-2. [Intall jenkin on docker](jenkin/jenkin_on_docker.adoc)
-3. [Troubleshoot](jenkin/Troubleshoot.adoc)
+### [Jenkins](jenkin/jenkins.md)
+  * [Install Jenkin](jenkin/installation.md)
+  * [Config with Private IP](jenkin/config_with_private_ip.md)
+  * [Email Integration/notification](jenkin/Email%20Integration.md)
+  * [Install jenkin on docker](jenkin/jenkin_on_docker.md)
+  * [Backup & Restore](jenkin/backup_restore.md)
+  * [Troubleshoot](jenkin/Troubleshoot.md)
 
 ### Redis
 

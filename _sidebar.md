@@ -86,6 +86,7 @@
   * [Config with Private IP](jenkin/config_with_private_ip.md)
   * [Email Integration/notification](jenkin/Email%20Integration.md)
   * [Install jenkin on docker](jenkin/jenkin_on_docker.md)
+  * [Backup & Restore](jenkin/backup_restore.md)
   * [Troubleshoot](jenkin/Troubleshoot.md)
 
 * Redis
