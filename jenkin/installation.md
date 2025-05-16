@@ -1,11 +1,12 @@
 # Installing Jenkins on Ubuntu
 
-* [Direct Install] (#Direct-Install)
-* Docker Install (#Using-Docker)
+* [Direct Install](#Direct-Install)
+* [Docker Install](#Using-Docker)
 
 
 # Direct Install
-## Prerequist 
+
+### Prerequist  to install on OS directly
 
 Requires `JAVA`,
 
