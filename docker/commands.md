@@ -22,6 +22,7 @@
 | Login/Access Container                   |    | `docker exec -it {containerName} bash` |
 | Copy files from host to docker container |    | `docker cp {filename} {container_name}:/{destination}` Ex: `docker cp thirumal.txt nginx1:/var/www/` |
 | Copy files from docker container to host |    | `docker cp {container_name}:/{source path}  /{destination}` Ex: ` docker cp nginx1:/var/www/thirumal.txt .` |
+| Help                                     | `docker --help` |  |
 
 
 ## RUN
