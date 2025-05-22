@@ -1,7 +1,7 @@
 
 | Purpose                                  | Images | Container |
 | ---------------------------------------  | ------- | ----------- |
-| List                                     | `docker images` | `docker container ls`, `docker ps -l`, `docker ps -a` |
+| List                                     | `docker images` | `docker container ls`, `docker ps -l`, `docker ps -a`, `docker ps --filter name=ngnix` |
 | Pull Images                              | `docker pull {images}` |  |
 | Remove images                            | `docker rmi {image_name/id}`, `docker rmi -f {image_name/id}` | `docker rm {Container Id}`, `docker rm -f {container_id}` - Use force `-f` To remove running container |
 | Remove dangling (none) images            | `docker rmi $(docker images -f "dangling=true" -q)` |   |
@@ -13,10 +13,10 @@
 | Name the container                       |    | `docker run -d --name {container name} -p 80:80 nginx` |
 | Run container (restart always)           |    | `docker run --restart always --detach --name auto-start-redis redis` |
 | Expose Port                              |    | To expose port use `-p-`Eg: `docker run -d -p {host_os_port}:{docker_port} {image:tag}` Example: `docker run -d -p 9090:80 nginx:alpine` |
+| Stop container                           |    |  `docker stop $(docker ps -q)` |
 | Statistics of container (CPU/RAM/...)    |    | `docker stats {container_id}` |
 | Limit the memory usage of container      |    | `docker run -d --name {container_name} --memory "200mb" nginx:alpine` |
 | Limit the CPU usage                      |    | [0,3] - means use oly 0 and 3. [0-3] means use 0 to 3  Ex: `docker run -d --name {container_image} --memory "200mb" --cpuset-cpus 0-3 ngnix:alpine` |
-
 | Inspect container                        |    | `docker inspect {container_id}`   |
 | Login/Access Container                   |    | `docker exec -ti {containerName} bash` |
 | Copy files from host to docker container |    | `docker cp {filename} {container_name}:/{destination}` Ex: `docker cp thirumal.txt nginx1:/var/www/` |

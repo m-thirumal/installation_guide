@@ -1,6 +1,6 @@
 * [Installation](docker/installtion_configuration.md)
 * [Log Configuration](docker/log_configuration.md)
-* [Commends](docker/commands.md)
+* [Commands](docker/commands.md)
 * [Danling Images](docker/context.md)
 * [Build Image](docker/build_image.md)
 * [Docker GUI](docker/docker_ui_Portainer.md)
