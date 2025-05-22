@@ -14,11 +14,12 @@
 | Run container (restart always)           |    | `docker run --restart always --detach --name auto-start-redis redis` |
 | Expose Port                              |    | To expose port use `-p-`Eg: `docker run -d -p {host_os_port}:{docker_port} {image:tag}` Example: `docker run -d -p 9090:80 nginx:alpine` |
 | Stop container                           |    |  `docker stop $(docker ps -q)` |
+| Log                                      |    |  `docker logs -f {container id/name}` |
 | Statistics of container (CPU/RAM/...)    |    | `docker stats {container_id}` |
 | Limit the memory usage of container      |    | `docker run -d --name {container_name} --memory "200mb" nginx:alpine` |
 | Limit the CPU usage                      |    | [0,3] - means use oly 0 and 3. [0-3] means use 0 to 3  Ex: `docker run -d --name {container_image} --memory "200mb" --cpuset-cpus 0-3 ngnix:alpine` |
 | Inspect container                        |    | `docker inspect {container_id}`   |
-| Login/Access Container                   |    | `docker exec -ti {containerName} bash` |
+| Login/Access Container                   |    | `docker exec -it {containerName} bash` |
 | Copy files from host to docker container |    | `docker cp {filename} {container_name}:/{destination}` Ex: `docker cp thirumal.txt nginx1:/var/www/` |
 | Copy files from docker container to host |    | `docker cp {container_name}:/{source path}  /{destination}` Ex: ` docker cp nginx1:/var/www/thirumal.txt .` |
 
