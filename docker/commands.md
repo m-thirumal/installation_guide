@@ -1,9 +1,9 @@
 
 | Purpose                                  | Images | Container |
 | ---------------------------------------  | ------- | ----------- |
-| List                                     | `docker images` | `docker container ls`, `docker ps -l`, `docker ps -a`, `docker ps --filter name=ngnix` |
+| List                                     | `docker images` | `docker container ls` <br> `docker ps -l` <br> `docker ps -a` <br> `docker ps --filter name=ngnix` |
 | Pull Images                              | `docker pull {images}` |  |
-| Remove images                            | `docker rmi {image_name/id}`, `docker rmi -f {image_name/id}` | `docker rm {Container Id}`, `docker rm -f {container_id}` - Use force `-f` To remove running container |
+| Remove images                            | `docker rmi {image_name/id}` <br> `docker rmi -f {image_name/id}` | `docker rm {Container Id}` <br> `docker rm -f {container_id}` - Use force `-f` To remove running container |
 | Remove dangling (none) images            | `docker rmi $(docker images -f "dangling=true" -q)` |   |
 | Run                                      |    | `docker run -d {image:tag}` -d => stands for de-attach mode |
 | Temporary container - Once exit from bash container will get destroy.                      |    | `docker run --rm -ti ubuntu bash` |
