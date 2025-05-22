@@ -1,19 +1,19 @@
-== Docker Log management
+## Docker Log management
 
-=== Run/Create docker container without log
+## Run/Create docker container without log
 
-[source, shell]
-----
+```shell
 docker run --name {container_name} --log-driver none -d -p {PORT}:{PORT} {image_name}
-----
+```
 
-===  Run/Create docker container local log
+##  Run/Create docker container local log
 
-----
+
+```shell
 docker run --name {container_name} --log-driver local --log-opt max-size=10m --log-opt max-file=3  --log-opt compress=true -d -p {PORT}:{PORT} {image_name}
-----
+```
 
-=== Options
+## Options
 The local logging driver supports the following logging options:
 
 [cols="1,1,1"]

@@ -21,7 +21,7 @@
   * [Open Project](openProject/installation.md)
 
 * DEVOPS
-  * [DOCKER](docker/installtion_configuration.md)
+  * [DOCKER](docker/docker.md)
   * [Jenkins](jenkin/jenkins.md)
   * [Nginx](Nginx/nginx.md)
   * [Git](git/git.md)
