@@ -30,3 +30,13 @@ Open  `vi /etc/openproject/conf.d/other` and set the following variable value as
 ```
 export OPENPROJECT_HTTPS="true"
 ```
+## Invalid Host name
+
+Replace the public ip in the below commands,
+
+```
+sudo openproject config:set host_name=3.109.45.123
+sudo openproject config:set protocol=http
+sudo openproject reconfigure
+```
+and set the `Public DNS` in the reconfigure
